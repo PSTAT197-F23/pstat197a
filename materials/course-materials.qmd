@@ -1,0 +1,25 @@
+---
+title: 'Course materials'
+editor: visual
+bibliography: slides/refs.bib
+---
+
+## Introductory module
+
+*Objectives: set expectations; explore data science raison d'etre; introduce systems and design thinking; introduce software tools and collaborative coding; conduct exploratory/descriptive analysis of class background and interests.*
+
+### Week 0
+
+-   ***Wednesday meeting:*** Course orientation [\[slides](slides/week0-intro.qmd)\]
+
+-   ***Assignments*** due by next class meeting:
+
+    -   install course software and create github account;
+
+    -   fill out [intake form](https://docs.google.com/forms/d/e/1FAIpQLSdRUs6jXQg1PnhzL1ZB0FlFcgV_4szJ-7zAdNW7uGT_6aBvFw/viewform?usp=sf_link)
+
+    -   read @peng2022perspective;
+
+    -   prepare a reading [reading response](https://forms.gle/n2GpNGMVXVaAXSWf9)
+
+
