@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-footer: "Site content created for PSTAT197A Fall 2023 using Quarto; hex logo by Priscilla Siow."
+  # reader-mode: true
+  repo-url: "https://github.com/PSTAT197-F23/pstat197a"
+  sidebar:
+    title: "Data Science Capstone Preparation"
+    style: "docked"
+    search: true
+    logo: "img/ucsbds_hex.png"
+    tools: 
+      - icon: github
+        href: https://github.com/PSTAT197-F23/pstat197a
+    contents:
+      - section: "About"
+        contents:
+          - about/syllabus.qmd
+          - about/outcomes.qmd
+          - about/schedule.qmd
+          - about/technology.qmd
+          - about/links.qmd
+      - materials/course-materials.qmd
+          
+        
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
