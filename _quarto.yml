@@ -13,9 +13,7 @@ website:
     logo: "img/ucsbds_hex.png"
     tools: 
       - icon: github
-        href: https://github.com/pstat197
-      - icon: slack
-        href: https://ucsbdscapstone.slack.com
+        href: https://github.com/PSTAT197-F23/pstat197a
     contents:
       - section: "About"
         contents:
