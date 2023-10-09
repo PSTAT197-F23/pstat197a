@@ -200,7 +200,7 @@
     "href": "materials/course-materials.html",
     "title": "Course materials",
     "section": "",
-    "text": "Objectives: set expectations; explore data science raison d’etre; introduce systems and design thinking; introduce software tools and collaborative coding; conduct exploratory/descriptive analysis of class background and interests.\n\n\n\nWednesday meeting: Course orientation [slides]\nAssignments due by next class meeting:\n\ninstall course software and create github account;\nfill out intake form\nread Peng and Parker (2022);\nprepare a reading reading response"
+    "text": "Objectives: set expectations; explore data science raison d’etre; introduce systems and design thinking; introduce software tools and collaborative coding; conduct exploratory/descriptive analysis of class background and interests.\n\n\n\nWednesday meeting: Course orientation [slides]\nAssignments due by next class meeting:\n\ninstall course software and create github account;\nfill out intake form\nread Peng and Parker (2022);\nprepare a reading reading response\n\n\n\n\n\n\nMonday meeting: On projects in(volving) data science [slides]"
   },
   {
     "objectID": "materials/course-materials.html#module-1-biomarker-identification",
@@ -620,7 +620,7 @@
     "href": "materials/slides/week1-perspectives.html#announcementsreminders",
     "title": "On data science",
     "section": "Announcements/reminders",
-    "text": "Announcements/reminders\n\nJoin Slack workspace, monitor channel #22f-pstat197a for announcements.\nOffice hours by demand immediately following section and class meetings\n\nYan will hold a drop in hour in building 434 room 126 after Josh’s section\n\nInstall course software and bring your laptop to section meetings. Remember your table number from today."
+    "text": "Announcements/reminders\n\nJoin Slack workspace, monitor channel #F23-pstat197a for announcements.\nOffice hours: Mondays 3:30-4:30pm, Old Gym 1201\nInstall course software and bring your laptop to section meetings."
   },
   {
     "objectID": "materials/slides/week1-perspectives.html#google-trends-data-science",
@@ -725,14 +725,14 @@
     "href": "materials/slides/week1-perspectives.html#confirmatory-approach",
     "title": "On data science",
     "section": "Confirmatory approach",
-    "text": "Confirmatory approach\nThe “confirmatory” approach of the classical inferential framework.\n\n\n\n\n\n\n\nconfirm\n\n \n\ncluster_1\n\n data generation  \n\ncluster_2\n\n data analysis  \n\ncluster_3\n\n decision   \n\nsci\n\n domain  knowledge   \n\nhyp\n\n hypotheses   \n\nsci->hyp\n\n    \n\nexp\n\n designed  experiment   \n\nhyp->exp\n\n    \n\nmdl\n\n statistical  model   \n\nexp->mdl\n\n    \n\ndat\n\n data   \n\nexp->dat\n\n    \n\nyay\n\n supporting  evidence   \n\nmdl->yay\n\n    \n\nnay\n\n opposing  evidence   \n\nmdl->nay\n\n    \n\ndat->yay\n\n    \n\ndat->nay\n\n   \n\n\n\n\n\n\noutput is a decision\nstatistical model determined by experimental design\nanalysis based on statistical theory"
+    "text": "Confirmatory approach\nThe “confirmatory” approach of the classical inferential framework.\n\n\n\n\n\n\n\nconfirm\n\n \n\ncluster_1\n\n data generation  \n\ncluster_2\n\n data analysis  \n\ncluster_3\n\n decision   \n\nsci\n\n domain  knowledge   \n\nhyp\n\n hypotheses   \n\nsci-&gt;hyp\n\n    \n\nexp\n\n designed  experiment   \n\nhyp-&gt;exp\n\n    \n\nmdl\n\n statistical  model   \n\nexp-&gt;mdl\n\n    \n\ndat\n\n data   \n\nexp-&gt;dat\n\n    \n\nyay\n\n supporting  evidence   \n\nmdl-&gt;yay\n\n    \n\nnay\n\n opposing  evidence   \n\nmdl-&gt;nay\n\n    \n\ndat-&gt;yay\n\n    \n\ndat-&gt;nay\n\n   \n\n\n\n\n\n\noutput is a decision\nstatistical model determined by experimental design\nanalysis based on statistical theory"
   },
   {
     "objectID": "materials/slides/week1-perspectives.html#exploratory-approach",
     "href": "materials/slides/week1-perspectives.html#exploratory-approach",
     "title": "On data science",
     "section": "Exploratory approach",
-    "text": "Exploratory approach\nThe “exploratory” approach of iterative modern data analysis.\n\n\n\n\n\n\n\nexplore\n\n \n\ncluster_1\n\n data analysis  \n\ncluster_2\n\n findings   \n\nsci\n\n domain  knowledge   \n\nq\n\n question  formulation   \n\nsci->q\n\n    \n\ndat\n\n data   \n\nq->dat\n\n    \n\nmdl\n\n statistical  model   \n\ndat->mdl\n\n    \n\nmdl->q\n\n    \n\nf1\n\n finding 1   \n\nmdl->f1\n\n    \n\nf2\n\n finding 2   \n\nmdl->f2\n\n    \n\ndots\n\n ⋮  \n\n\n\n\n\n\noutputs are findings\nstatistical model determined by data\nanalysis techniques include empirical methods"
+    "text": "Exploratory approach\nThe “exploratory” approach of iterative modern data analysis.\n\n\n\n\n\n\n\nexplore\n\n \n\ncluster_1\n\n data analysis  \n\ncluster_2\n\n findings   \n\nsci\n\n domain  knowledge   \n\nq\n\n question  formulation   \n\nsci-&gt;q\n\n    \n\ndat\n\n data   \n\nq-&gt;dat\n\n    \n\nmdl\n\n statistical  model   \n\ndat-&gt;mdl\n\n    \n\nmdl-&gt;q\n\n    \n\nf1\n\n finding 1   \n\nmdl-&gt;f1\n\n    \n\nf2\n\n finding 2   \n\nmdl-&gt;f2\n\n    \n\ndots\n\n ⋮  \n\n\n\n\n\n\noutputs are findings\nstatistical model determined by data\nanalysis techniques include empirical methods"
   },
   {
     "objectID": "materials/slides/week1-perspectives.html#drivers-of-change",
@@ -879,7 +879,7 @@
     "href": "materials/slides/week1-perspectives.html#next-time",
     "title": "On data science",
     "section": "Next time",
-    "text": "Next time\nWe’ll do a github icebreaker activity.\n\nComplete lab activity from Wednesday section meeting\nBring laptops"
+    "text": "Next time\nWe’ll do a github icebreaker activity.\n\nComplete lab activity from Tuesday section meeting\nBring laptops"
   },
   {
     "objectID": "materials/slides/week1-perspectives.html#references",
@@ -3035,7 +3035,7 @@
     "href": "materials/course-materials.html#introductory-module",
     "title": "Course materials",
     "section": "",
-    "text": "Objectives: set expectations; explore data science raison d’etre; introduce systems and design thinking; introduce software tools and collaborative coding; conduct exploratory/descriptive analysis of class background and interests.\n\n\n\nWednesday meeting: Course orientation [slides]\nAssignments due by next class meeting:\n\ninstall course software and create github account;\nfill out intake form\nread Peng and Parker (2022);\nprepare a reading reading response"
+    "text": "Objectives: set expectations; explore data science raison d’etre; introduce systems and design thinking; introduce software tools and collaborative coding; conduct exploratory/descriptive analysis of class background and interests.\n\n\n\nWednesday meeting: Course orientation [slides]\nAssignments due by next class meeting:\n\ninstall course software and create github account;\nfill out intake form\nread Peng and Parker (2022);\nprepare a reading reading response\n\n\n\n\n\n\nMonday meeting: On projects in(volving) data science [slides]"
   },
   {
     "objectID": "about/technology.html#sec-software",
