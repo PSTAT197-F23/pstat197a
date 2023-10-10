@@ -21,10 +21,9 @@ bibliography: slides/refs.bib
     -   read @peng2022perspective;
 
     -   prepare a reading [reading response](https://forms.gle/n2GpNGMVXVaAXSWf9)
-    
+
 ### Week 1 {#sec-week-1}
 
 -   ***Monday meeting:*** On projects in(volving) data science [\[slides](slides/week1-perspectives.qmd)\]
 
-
-
+-   ***Section meeting:*** software and technology overview [\[activity](labs/lab1-setup/lab1-setup.qmd)\] [Teams spreadsheet](https://docs.google.com/spreadsheets/d/1bH8RaQXk2mtydzfBVIrCKXrtxFifnog2SYHWUj5eZ9M/edit?usp=drive_link)

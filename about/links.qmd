@@ -4,7 +4,9 @@ title: "Links"
 
 ## Class forms {#sec-class-forms}
 
--   [Attendance reporting form](https://docs.google.com/forms/d/e/1FAIpQLSdSZhPOz5CRHg23aOegnwJzjKNndAdcc2LvS3LSL0z7ZBmh-g/viewform?usp=sf_link); fill out once per class meeting.
+-   [Lecture Attendance reporting form](https://docs.google.com/forms/d/e/1FAIpQLSdSZhPOz5CRHg23aOegnwJzjKNndAdcc2LvS3LSL0z7ZBmh-g/viewform?usp=sf_link); fill out once per class meeting.
+
+- [Section Attendance reporting form](https://forms.gle/fzBxy6bbTUVdtJpB9)
 
 -   [Capstone project intake form](https://docs.google.com/forms/d/e/1FAIpQLSdRUs6jXQg1PnhzL1ZB0FlFcgV_4szJ-7zAdNW7uGT_6aBvFw/viewform?usp=sf_link); fill out by October 6.
 
