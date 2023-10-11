@@ -132,7 +132,7 @@ A *commit* is a bundle of changes that will be submitted to the repository along
 
 -   Once you have staged changes, look for a menu item to commit changes. Add a message and commit the changes. In GitHub Desktop, this appears at the bottom of the 'Changes' menu.
 
-    -   Or in the terminal: `git add -m "your message here"`
+    -   Or in the terminal: `git commit -m "your message here"`
 :::
 
 Often these actions are performed together. However, in some workflows it may make sense to stage changes incrementally and create commits that bundle several changes at once. For example, if you need to make an update that requires modifying files A, B, and C, it may make sense to edit and stage changes to A first, followed by B, followed by C, and create the commit only once the full update has been implemented.
@@ -144,10 +144,10 @@ The last step is to push your commit to the remote repository. However, as you w
 ::: callout-important
 ## Action (group)
 
-1.  Choose one person at your table to push their changes. The very first person to do this will have no problems, since their local repository is up to date with the remote.
-2.  Then choose someone else to try -- use the main screen at your workstation if possible so everyone at the table can see. Since the first person modified the remote repository, the next person to push changes will no longer be up to date. Git will detect this and the push won't go through.
+1.  Choose one person in your team to push their changes. The very first person to do this will have no problems, since their local repository is up to date with the remote.
+2.  Then choose someone else to try. Since the first person modified the remote repository, the next person to push changes will no longer be up to date. Git will detect this and the push won't go through.
 3.  Have the second person update their local repository by pulling changes, and then try the push again. It should go through once their local is up to date with the remote.
-4.  Have everyone at your table pull changes but do not push any additional commits.
+4.  Have everyone in your team pull changes but do not push any additional commits.
 :::
 
 So far everyone is working on independent files and there's no overlap between changes, so although it would be a bit of a hassle to have everyone check for changes every time they push, in principle it could be done. However, there is a more efficient way to work in parallel: by creating *branches*.
@@ -158,7 +158,7 @@ Inspect your GitHub client closely, and note that you are currently on the 'main
 
 ### Create a branch
 
-Here you'll use branches to avoid stepping on each others' toes while pushing your table's remaining commits. The strategy will be to create a personal branch, push your commit to that branch, and then merge the branch back into the main branch of the repository.
+Here you'll use branches to avoid stepping on each others' toes while pushing your team's remaining commits. The strategy will be to create a personal branch, push your commit to that branch, and then merge the branch back into the main branch of the repository.
 
 ::: callout-important
 ## Action (individual)
@@ -182,11 +182,11 @@ While often the main purpose of branching is to create a version of the reposito
 
 **Make a commit to your neighbor's branch**
 
-1.  Find out your neighbor's username and switch to their branch in your GitHub client.
+1.  Find out your neighbor's (to your right) username and switch to their branch in your GitHub client.
 2.  In RStudio, verify that you are on their branch by executing `git status` in the terminal.
 3.  Open their markdown file, ask them a simple question about themselves (nothing too personal, please), and add the information to their markdown file.
 4.  Stage, commit, and push the change.
-5.  When your neighbor has done the same with you, switch back to your own branch in your GitHub client and pull changes.
+5.  When your neighbor (to your left) has done the same with you, switch back to your own branch in your GitHub client and pull changes.
 :::
 
 ## Pull requests
@@ -196,7 +196,7 @@ Once you are ready to integrate changes you've developed on a branch you can ope
 'Pull request' is a bit of an odd term; think of it as you making a *request* that your collaborators *pull* your changes for review.
 
 ::: callout-important
-## Action (in pairs)
+## Action (individual)
 
 **Open a pull request:**
 
@@ -208,14 +208,14 @@ Once you are ready to integrate changes you've developed on a branch you can ope
 Once a pull request is opened, usually a collaborator with maintain privileges must be the one to merge changes and close the request. However, the rules for this depend on repository settings. For this repository, all contributors can merge and close pull requests.
 
 ::: callout-important
-## Action (in pairs)
+## Action (pairs)
 
 -   Open the repository in the browser. Navigate to pull requests.
 
--   Find your neighbor's pull request; merge their changes and close the request. Then delete the branch.
+-   Find your neighbor's (to your right) pull request; merge their changes and close the request. Then delete the branch.
 :::
 
-Once everyone at the table is finished, examine the repository on the main screen and verify that everyone's markdown file is present on the main branch. Then have each contributor pull changes and check that they see the same.
+Once everyone in your team is finished, examine the repository and verify that everyone's markdown file is present on the main branch. Then have each contributor pull changes and check that they see the same.
 
 ## Merge conflicts
 
@@ -234,15 +234,14 @@ Here you'll create an artificial merge conflict to see what this looks like and 
 
 **Create a merge conflict**
 
-Ensure the workstation at your table is up to date with the remote repository. Then:
 
-1.  Have someone at your table open the README file and add the group members' names in a list on one line, *e.g.*,
+1.  Have someone in your team open the README file and add the group members' names in a list on one line, *e.g.*,
 
-    group: trevor ruiz, yan lashchev
+    group: Laura Baracaldo, Erika MchPillips
 
 2.  Commit and push changes
 
-3.  Then on the main screen, without pulling new changes, create a commit with the names shown differently somehow, such as last, first, or initials, or spanning multiple lines with one name per line.
+3.  Then have someone, without pulling new changes, create a commit with the names shown differently somehow, such as last, first, or initials, or spanning multiple lines with one name per line.
 
 4.  Attempt to push the commit. Your client will detect 'upstream' changes on the remote repository and prompt you to pull changes.
 
@@ -252,7 +251,7 @@ Ensure the workstation at your table is up to date with the remote repository. T
 
 You will see a version of the file with the conflict that shows `<<<<HEAD … >>>>` followed by a long alphanumeric string. Within the angle brackets the two conflicting versions of the file will be shown, separated by `=====` .
 
-1.  Agree with your table on one version of the README file (or another representation of your names).
+1.  Agree with your team on one version of the README file (or another representation of your names).
 2.  Commit and push the change.
 :::
 

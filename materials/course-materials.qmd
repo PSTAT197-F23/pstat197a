@@ -27,3 +27,11 @@ bibliography: slides/refs.bib
 -   ***Monday meeting:*** On projects in(volving) data science [\[slides](slides/week1-perspectives.qmd)\]
 
 -   ***Section meeting:*** software and technology overview [\[activity](labs/lab1-setup/lab1-setup.qmd)\] [Teams spreadsheet](https://docs.google.com/spreadsheets/d/1bH8RaQXk2mtydzfBVIrCKXrtxFifnog2SYHWUj5eZ9M/edit?usp=drive_link)
+
+-   ***Wednesday meeting:*** basic GitHub actions [\[activity](activities/github-basics.qmd)\] [\[slides](slides/week1-github.qmd)\]
+
+-   ***Assignments*** due by next class meeting:
+
+    -   read [MDSR 9.1 and 9.2](https://mdsr-book.github.io/mdsr2e/ch-foundations.html#samples-and-populations)
+
+    -   prepare a [reading response](https://forms.gle/QSWcR2GpTvQ3Lx8x5)

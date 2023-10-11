@@ -21,13 +21,13 @@ execute:
 
 ## Announcements/reminders
 
--   today, sit at your table from last time
+-   today, sit with the members of your team (From Tuesday's section)
 
 -   ***assignment for next time:***
 
     -   read [MDSR 9.1 -- 9.2](https://mdsr-book.github.io/mdsr2e/ch-foundations.html#samples-and-populations)
 
-    -   prepare a [reading response](https://forms.gle/jAekx68c7ju4GYxL7)
+    -   prepare a [reading response](https://forms.gle/QSWcR2GpTvQ3Lx8x5)
 
 ## Objective for today
 
@@ -60,6 +60,4 @@ Learn how to interact with GitHub repositories:
 
 -   have everyone open their GitHub client, the sandbox project in RStudio, and the group sandbox repository in the browser on github.com
 
--   choose one person to operate the table workstation; have them do the same and log in to github using their credentials
 
--   on the workstation, create a directory for the class `documents/22f-pstat197a` and clone the group sandbox repo into this directory
