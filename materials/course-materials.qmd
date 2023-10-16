@@ -35,3 +35,12 @@ bibliography: slides/refs.bib
     -   read [MDSR 9.1 and 9.2](https://mdsr-book.github.io/mdsr2e/ch-foundations.html#samples-and-populations)
 
     -   prepare a [reading response](https://forms.gle/QSWcR2GpTvQ3Lx8x5)
+    
+### Week 2
+
+-   ***Monday meeting:*** Introducing class intake survey data [\[slides](slides/week2-classdata.qmd)\]
+
+
+
+
+
