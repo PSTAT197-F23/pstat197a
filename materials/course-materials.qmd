@@ -42,5 +42,7 @@ bibliography: slides/refs.bib
 
 
 
+-   ***Section meeting:*** tidyverse basics [\[activity](labs/lab2-tidyverse/lab2-tidyverse.qmd)\]
+
 
 
