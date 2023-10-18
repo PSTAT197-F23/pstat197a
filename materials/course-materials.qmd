@@ -45,4 +45,9 @@ bibliography: slides/refs.bib
 -   ***Section meeting:*** tidyverse basics [\[activity](labs/lab2-tidyverse/lab2-tidyverse.qmd)\]
 
 
+-   ***Wednesday meeting:*** planning group work for analysis of survey data \[[slides](slides/week2-workshop.qmd)\]
+
+-   ***Assignments:***
+
+    -   first team assignment due Wednesday, October 26, 11:59 PM PST \[[accept via GH classroom here](https://classroom.github.com/a/QBvSKfwa)\][Teams spreadsheet](https://docs.google.com/spreadsheets/d/1nD4aHe9umgcLciW84_FzDUDhIRVLEJIH53eYxkg8j1g/edit?usp=sharing)
 

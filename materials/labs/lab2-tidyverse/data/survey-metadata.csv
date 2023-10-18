@@ -42,6 +42,6 @@ pr.dom,project interests,preference for application domain,factor,Which of the f
 pr.area,project interests,areas of interest in data science,factor,Which of the following areas of data science interest you? Check all that apply.
 pr.goals.txt,project interests,goals for the project,long text,What do you most hope to get out of the capstone project?
 pr.comment.txt,project interests,miscellaneous comments,long text,Is there anything else you'd like taken into account in your project team placement?
-pr.consent,project interests,consent to share responses on project preferences,binary,"Are you okay with your responses in this section being shared, separately from your identity and personal information, with other students in PSTAT197A?"
+pr.consent,project interests,consent to share responses on project preferences,binary,"Are you okay with your responses in this section being shared, separately from your identity and personal information, with other students in PSTAT197A ?"
 ,,,,
 b.rsrch,background,"prior research experience, yes/no",binary,derived from b.dsrsrch and b.othrsrch

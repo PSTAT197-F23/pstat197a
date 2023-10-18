@@ -200,7 +200,7 @@
     "href": "materials/course-materials.html",
     "title": "Course materials",
     "section": "",
-    "text": "Objectives: set expectations; explore data science raison d’etre; introduce systems and design thinking; introduce software tools and collaborative coding; conduct exploratory/descriptive analysis of class background and interests.\n\n\n\nWednesday meeting: Course orientation [slides]\nAssignments due by next class meeting:\n\ninstall course software and create github account;\nfill out intake form\nread Peng and Parker (2022);\nprepare a reading reading response\n\n\n\n\n\n\nMonday meeting: On projects in(volving) data science [slides]\nSection meeting: software and technology overview [activity] Teams spreadsheet\nWednesday meeting: basic GitHub actions [activity] [slides]\nAssignments due by next class meeting:\n\nread MDSR 9.1 and 9.2\nprepare a reading response\n\n\n\n\n\n\nMonday meeting: Introducing class intake survey data [slides]\nSection meeting: tidyverse basics [activity]"
+    "text": "Objectives: set expectations; explore data science raison d’etre; introduce systems and design thinking; introduce software tools and collaborative coding; conduct exploratory/descriptive analysis of class background and interests.\n\n\n\nWednesday meeting: Course orientation [slides]\nAssignments due by next class meeting:\n\ninstall course software and create github account;\nfill out intake form\nread Peng and Parker (2022);\nprepare a reading reading response\n\n\n\n\n\n\nMonday meeting: On projects in(volving) data science [slides]\nSection meeting: software and technology overview [activity] Teams spreadsheet\nWednesday meeting: basic GitHub actions [activity] [slides]\nAssignments due by next class meeting:\n\nread MDSR 9.1 and 9.2\nprepare a reading response\n\n\n\n\n\n\nMonday meeting: Introducing class intake survey data [slides]\nSection meeting: tidyverse basics [activity]\nWednesday meeting: planning group work for analysis of survey data [slides]\nAssignments:\n\nfirst team assignment due Wednesday, October 26, 11:59 PM PST [accept via GH classroom here]Teams spreadsheet"
   },
   {
     "objectID": "materials/course-materials.html#module-1-biomarker-identification",
@@ -1068,7 +1068,7 @@
     "href": "materials/slides/week2-workshop.html#today",
     "title": "Group assignment workshops",
     "section": "Today",
-    "text": "Today\n\nfinish discussing results from last time\nsetup for first group assignment due next Friday\n\nassignment objectives and instructions\nreview repository\n\nworkshop ideas and plan tasks in groups"
+    "text": "Today\n\nsetup for first group assignment due next Thursday\n\nassignment objectives and instructions\nreview repository\n\nworkshop ideas and plan tasks in groups"
   },
   {
     "objectID": "materials/slides/week2-workshop.html#assignment-objective",
@@ -1096,7 +1096,7 @@
     "href": "materials/slides/week2-workshop.html#deliverable",
     "title": "Group assignment workshops",
     "section": "Deliverable",
-    "text": "Deliverable\nYour ‘submission’ will be in the form of commits to the group repository, in particular:\n\nan updated results/report.qmd file containing your write-up source\na rendered results/report.html file\n\n\nPlease make final commits by Friday, October 14, 11:59pm PST.\n\n\nRecall there is a 24-hour grace period; any commits submitted after Saturday 11:59pm may not receive review."
+    "text": "Deliverable\nYour ‘submission’ will be in the form of commits to the group repository, in particular:\n\nan updated results/report.qmd file containing your write-up source\na rendered results/report.html file\n\n\nPlease make final commits by Thursday, October 26, 11:59pm PST.\n\n\nRecall there is a one-hour grace period; any commits submitted after Friday 1:00am will not receive review."
   },
   {
     "objectID": "materials/slides/week2-workshop.html#resources",
@@ -1110,7 +1110,7 @@
     "href": "materials/slides/week2-workshop.html#workshopping-today",
     "title": "Group assignment workshops",
     "section": "Workshopping today",
-    "text": "Workshopping today\nTry to accomplish three goals:\n\npool ideas for questions or themes to explore in the data\npair up, divide work, and assign tasks\nagree on a communication plan for finishing work\n\nslack groupchat or similar\nmeeting outside of class sometime next week"
+    "text": "Workshopping today\nTry to accomplish three goals:\n\npool ideas for questions or themes to explore in the data\npair up, divide work, and assign tasks\nagree on a communication plan for finishing work\n\nslack groupchat or similar\nmeeting outside of class sometime"
   },
   {
     "objectID": "materials/slides/week3-biomarkers.html#announcementsreminders",
@@ -3035,7 +3035,7 @@
     "href": "materials/course-materials.html#introductory-module",
     "title": "Course materials",
     "section": "",
-    "text": "Objectives: set expectations; explore data science raison d’etre; introduce systems and design thinking; introduce software tools and collaborative coding; conduct exploratory/descriptive analysis of class background and interests.\n\n\n\nWednesday meeting: Course orientation [slides]\nAssignments due by next class meeting:\n\ninstall course software and create github account;\nfill out intake form\nread Peng and Parker (2022);\nprepare a reading reading response\n\n\n\n\n\n\nMonday meeting: On projects in(volving) data science [slides]\nSection meeting: software and technology overview [activity] Teams spreadsheet\nWednesday meeting: basic GitHub actions [activity] [slides]\nAssignments due by next class meeting:\n\nread MDSR 9.1 and 9.2\nprepare a reading response\n\n\n\n\n\n\nMonday meeting: Introducing class intake survey data [slides]\nSection meeting: tidyverse basics [activity]"
+    "text": "Objectives: set expectations; explore data science raison d’etre; introduce systems and design thinking; introduce software tools and collaborative coding; conduct exploratory/descriptive analysis of class background and interests.\n\n\n\nWednesday meeting: Course orientation [slides]\nAssignments due by next class meeting:\n\ninstall course software and create github account;\nfill out intake form\nread Peng and Parker (2022);\nprepare a reading reading response\n\n\n\n\n\n\nMonday meeting: On projects in(volving) data science [slides]\nSection meeting: software and technology overview [activity] Teams spreadsheet\nWednesday meeting: basic GitHub actions [activity] [slides]\nAssignments due by next class meeting:\n\nread MDSR 9.1 and 9.2\nprepare a reading response\n\n\n\n\n\n\nMonday meeting: Introducing class intake survey data [slides]\nSection meeting: tidyverse basics [activity]\nWednesday meeting: planning group work for analysis of survey data [slides]\nAssignments:\n\nfirst team assignment due Wednesday, October 26, 11:59 PM PST [accept via GH classroom here]Teams spreadsheet"
   },
   {
     "objectID": "about/technology.html#sec-software",
