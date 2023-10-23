@@ -50,4 +50,14 @@ bibliography: slides/refs.bib
 -   ***Assignments:***
 
     -   first team assignment due Wednesday, October 26, 11:59 PM PST \[[accept via GH classroom here](https://classroom.github.com/a/QBvSKfwa)\][Teams spreadsheet](https://docs.google.com/spreadsheets/d/1nD4aHe9umgcLciW84_FzDUDhIRVLEJIH53eYxkg8j1g/edit?usp=sharing)
+    
+## Module 1: biomarker identification
+
+*Objectives: introduce variable selection, classification, and multiple testing problems; discuss classification accuracy metrics and data partitioning; fit logistic regression and random forest classifiers in R; learn to implement multiple testing corrections for FDR control (Benjamini-Hochberg and Benjamini-Yekutieli); discuss selection via penalized estimation. Data from @hewitson2021blood .*
+
+### Week 3
+
+-   ***Monday meeting:*** introducing biomarker data; multiple testing \[[slides](slides/week3-biomarkers.qmd)\]
+
+-   ***Section meeting:*** iteration strategies \[[activity](labs/lab3-iteration/lab3-iteration.qmd)\]
 
