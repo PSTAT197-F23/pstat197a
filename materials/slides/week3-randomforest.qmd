@@ -21,13 +21,13 @@ execute:
 
 ## Announcements/reminders
 
-Make your final commits for the first group assignment by ***Friday 10/14 11:59pm PST***
+Make your final commits for the first group assignment by ***Thursday 10/26 11:59pm PST***
 
 -   should include an updated `report.qmd` and `report.html` with your write-up
 
 . . .
 
-Next group assignment to be distributed Tuesday 10/18.
+Next group assignment to be distributed on next Monday.
 
 -   Groups will be randomly assigned
 
@@ -97,7 +97,7 @@ So here's an idea:
 
 -   compute correlations of each protein with ADOS;
 
--   pick the 10 proteins with the strongest correlation
+-   pick proteins with the strongest correlation
 
 ## Computation
 
@@ -207,7 +207,7 @@ ados_slr %>% arrange(p.value)
 
 ## FDR control
 
-If we do the correlation analysis this way, do the identified proteins pass multiple testing significance thresholds?
+If we do the correlation analysis this way, do the identify proteins pass multiple testing significance thresholds?
 
 ```{r}
 # do these pass multiple testing?
@@ -227,7 +227,7 @@ ados_slr %>%
 
 ## Aside: correlation test {.scrollable}
 
-The SLR approach is equivalent to sorting the correlations. (Take a moment to check the results.)
+The SLR approach is equivalent to sorting the correlations.
 
 . . .
 
@@ -271,7 +271,7 @@ A ***classification tree*** is a binary tree in which the paths represent classi
 
 ## Example: classifying high earners {.scrollable}
 
-Say we want to predict income based on captial gains and education level using census data.
+Say we want to predict income based on capital gains and education level using census data.
 
 ```{r}
 library(rpart)
@@ -343,7 +343,7 @@ To get a sense of the process of tree construction, we'll do an activity in grou
 
 -   first let's look at the instructions together
 
--   then take about 15-20 minutes to do it
+-   then work on today's activity in teams
 
 ## Random forests
 
