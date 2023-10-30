@@ -23,9 +23,9 @@ execute:
 
 -   Next assignment and groups posted on class website
 
-    -   Due ***Friday, October 28, 11:59pm***
+    -   Due ***Tuesday, Nov 7, 11:59pm***
 
--   Any feedback on the first group assignment?
+
 
 # Random forests, cont'd
 
@@ -41,7 +41,7 @@ In groups you made $T$ trees 'by hand'. To make each tree:
 
 . . .
 
-Then each of you classified a new observation. We took a majority vote to decide on the final classification.
+Then each of you classified a new observation. A majority vote is taken to decide on the final classification.
 
 . . .
 
@@ -70,7 +70,7 @@ Suppose we had a random forest of three trees.
 ::: columns
 ::: {.column width="75%"}
 ```{dot}
-//| fig-width: 7.5
+//| fig-width: 9
 digraph G {
     edge [dir="none"]
     overlap="false"
@@ -176,7 +176,7 @@ Smaller values indicate greater homogeneity.
 The change in node homogeneity can be calculated for every split:
 
 $$
-h(\text{before}) - \underbrace{\Big[(p_L \times h(\text{after}_L) - p_R \times h(\text{after}_R)\Big]}_{\text{weighted avg. of homogeneity in child nodes}}
+h(\text{before}) - \underbrace{\Big[(p_L \times h(\text{after}_L) + p_R \times h(\text{after}_R)\Big]}_{\text{weighted avg. of homogeneity in child nodes}}
 $$
 
 . . .
@@ -644,6 +644,4 @@ Some other metrics that are useful to know:
 
 -   variable selection via regularized estimation
 
--   design assessment of Hewitson analysis
 
-    -   ***mini assignment:*** sketch a diagram representing the data analysis in the paper; come prepared to share

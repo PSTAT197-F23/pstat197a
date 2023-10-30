@@ -1579,14 +1579,14 @@
     "href": "materials/slides/week4-logistic.html#announcementsreminders",
     "title": "Classification with logistic regression",
     "section": "Announcements/reminders",
-    "text": "Announcements/reminders\n\nNext assignment and groups posted on class website\n\nDue Friday, October 28, 11:59pm\n\nAny feedback on the first group assignment?"
+    "text": "Announcements/reminders\n\nNext assignment and groups posted on class website\n\nDue Tuesday, Nov 7, 11:59pm"
   },
   {
     "objectID": "materials/slides/week4-logistic.html#from-last-time",
     "href": "materials/slides/week4-logistic.html#from-last-time",
     "title": "Classification with logistic regression",
     "section": "From last time",
-    "text": "From last time\nIn groups you made \\(T\\) trees ‘by hand’. To make each tree:\n\nrandomly resample observations and choose two predictors at random\nchoose a variable and a split by manual inspection, then repeat\n\nthis method of tree construction is called recursive partitioning\n\n\n\nThen each of you classified a new observation. We took a majority vote to decide on the final classification.\n\n\nThis is a random forest consisting of \\(T\\) trees."
+    "text": "From last time\nIn groups you made \\(T\\) trees ‘by hand’. To make each tree:\n\nrandomly resample observations and choose two predictors at random\nchoose a variable and a split by manual inspection, then repeat\n\nthis method of tree construction is called recursive partitioning\n\n\n\nThen each of you classified a new observation. A majority vote is taken to decide on the final classification.\n\n\nThis is a random forest consisting of \\(T\\) trees."
   },
   {
     "objectID": "materials/slides/week4-logistic.html#random-forests",
@@ -1628,7 +1628,7 @@
     "href": "materials/slides/week4-logistic.html#variable-importance-scores",
     "title": "Classification with logistic regression",
     "section": "Variable importance scores",
-    "text": "Variable importance scores\nThe change in node homogeneity can be calculated for every split:\n\\[\nh(\\text{before}) - \\underbrace{\\Big[(p_L \\times h(\\text{after}_L) - p_R \\times h(\\text{after}_R)\\Big]}_{\\text{weighted avg. of homogeneity in child nodes}}\n\\]\n\nThe average change across all nodes associated with a given predictor in all trees gives an easy measure of importance.\n\nfavors high-quality splits over splitting frequency"
+    "text": "Variable importance scores\nThe change in node homogeneity can be calculated for every split:\n\\[\nh(\\text{before}) - \\underbrace{\\Big[(p_L \\times h(\\text{after}_L) + p_R \\times h(\\text{after}_R)\\Big]}_{\\text{weighted avg. of homogeneity in child nodes}}\n\\]\n\nThe average change across all nodes associated with a given predictor in all trees gives an easy measure of importance.\n\nfavors high-quality splits over splitting frequency"
   },
   {
     "objectID": "materials/slides/week4-logistic.html#proteomics-application",
@@ -1761,7 +1761,7 @@
     "href": "materials/slides/week4-logistic.html#next-time",
     "title": "Classification with logistic regression",
     "section": "Next time",
-    "text": "Next time\n\nvariable selection via regularized estimation\ndesign assessment of Hewitson analysis\n\nmini assignment: sketch a diagram representing the data analysis in the paper; come prepared to share"
+    "text": "Next time\n\nvariable selection via regularized estimation"
   },
   {
     "objectID": "materials/slides/week5-multinomial.html#from-last-time",

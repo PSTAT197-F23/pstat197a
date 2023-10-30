@@ -401,9 +401,8 @@
 <ul>
 <li class="fragment"><p>Next assignment and groups posted on class website</p>
 <ul>
-<li class="fragment">Due <strong><em>Friday, October 28, 11:59pm</em></strong></li>
+<li class="fragment">Due <strong><em>Tuesday, Nov 7, 11:59pm</em></strong></li>
 </ul></li>
-<li class="fragment"><p>Any feedback on the first group assignment?</p></li>
 </ul>
 </section>
 <section>
@@ -422,7 +421,7 @@
 </ul></li>
 </ul>
 <div class="fragment">
-<p>Then each of you classified a new observation. We took a majority vote to decide on the final classification.</p>
+<p>Then each of you classified a new observation. A majority vote is taken to decide on the final classification.</p>
 </div>
 <div class="fragment">
 <p><strong><em>This is a random forest consisting of</em></strong> <span class="math inline">\(T\)</span> <strong><em>trees.</em></strong></p>
@@ -447,11 +446,11 @@
 <p>Suppose we had a random forest of three trees.</p>
 <div class="columns">
 <div class="column" style="width:75%;">
-<div class="cell" data-fig-width="7.5">
+<div class="cell" data-fig-width="9">
 <div class="cell-output-display">
 <div>
 <div>
-<svg width="720" height="192" viewbox="0.00 0.00 468.00 316.80" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<svg width="864" height="192" viewbox="0.00 0.00 468.00 316.80" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 312.8)">
 <title>
 G
@@ -626,7 +625,7 @@ age2-&gt;l9
 <h2>Variable importance scores</h2>
 <p>The change in node homogeneity can be calculated for every split:</p>
 <p><span class="math display">\[
-h(\text{before}) - \underbrace{\Big[(p_L \times h(\text{after}_L) - p_R \times h(\text{after}_R)\Big]}_{\text{weighted avg. of homogeneity in child nodes}}
+h(\text{before}) - \underbrace{\Big[(p_L \times h(\text{after}_L) + p_R \times h(\text{after}_R)\Big]}_{\text{weighted avg. of homogeneity in child nodes}}
 \]</span></p>
 <div class="fragment">
 <p>The average change across all nodes associated with a given predictor in all trees gives an easy measure of importance.</p>
@@ -1167,11 +1166,7 @@ ASD 18  58  76
 <section id="next-time" class="slide level2">
 <h2>Next time</h2>
 <ul>
-<li class="fragment"><p>variable selection via regularized estimation</p></li>
-<li class="fragment"><p>design assessment of Hewitson analysis</p>
-<ul>
-<li class="fragment"><strong><em>mini assignment:</em></strong> sketch a diagram representing the data analysis in the paper; come prepared to share</li>
-</ul></li>
+<li class="fragment">variable selection via regularized estimation</li>
 </ul>
 
 <div class="footer footer-default">
