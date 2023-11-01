@@ -416,28 +416,6 @@
 
 </section>
 <section>
-<section id="design-assessment" class="title-slide slide level1 center">
-<h1>Design assessment</h1>
-
-</section>
-<section id="minute-activity" class="slide level2">
-<h2>10 Minute Activity</h2>
-<p>With your table, share your diagrams.</p>
-<ul>
-<li class="fragment"><p>identify common elements/aspects</p></li>
-<li class="fragment"><p>pick one or a blend that you like best and sketch it on the whiteboard</p></li>
-</ul>
-</section>
-<section id="design-assessment-1" class="slide level2">
-<h2>Design assessment</h2>
-<p>How would you score the proteomics analysis along the following dimensions?</p>
-<ul>
-<li class="fragment"><p><strong><em>reproducibility:</em></strong> how easy is it to reproduce the results exactly?</p></li>
-<li class="fragment"><p><strong><em>transparency:</em></strong> how widely distributed is potential variability in results across the elements of the data analysis?</p></li>
-<li class="fragment"><p><strong><em>replicability:</em></strong> how likely is it that if the study were conducted with new subjects, the same panel would be obtained?</p></li>
-</ul>
-</section></section>
-<section>
 <section id="an-alternative-analysis" class="title-slide slide level1 center">
 <h1>An alternative analysis</h1>
 
@@ -465,15 +443,15 @@
 <title>
 G
 </title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-337 695.01,-337 695.01,4 -4,4"></polygon> <g id="clust3" class="cluster">
-<title>
-cluster2
-</title>
-<polygon fill="none" stroke="white" points="569.76,-13 569.76,-163 683.01,-163 683.01,-13 569.76,-13"></polygon> <text text-anchor="middle" x="626.39" y="-141" font-family="sans-serif" font-size="20.00">outputs</text> </g> <g id="clust1" class="cluster">
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-337 695.01,-337 695.01,4 -4,4"></polygon> <g id="clust1" class="cluster">
 <title>
 cluster1
 </title>
-<polygon fill="none" stroke="white" points="83,-65 83,-325 510.76,-325 510.76,-65 83,-65"></polygon> <text text-anchor="middle" x="296.88" y="-303" font-family="sans-serif" font-size="20.00">statistical modeling</text> </g> <!-- data --> <g id="node1" class="node">
+<polygon fill="none" stroke="white" points="83,-65 83,-325 510.76,-325 510.76,-65 83,-65"></polygon> <text text-anchor="middle" x="296.88" y="-303" font-family="sans-serif" font-size="20.00">statistical modeling</text> </g> <g id="clust3" class="cluster">
+<title>
+cluster2
+</title>
+<polygon fill="none" stroke="white" points="569.76,-13 569.76,-163 683.01,-163 683.01,-13 569.76,-13"></polygon> <text text-anchor="middle" x="626.39" y="-141" font-family="sans-serif" font-size="20.00">outputs</text> </g> <!-- data --> <g id="node1" class="node">
 <title>
 data
 </title>
@@ -580,7 +558,11 @@ join-&gt;pred
 <title>
 G
 </title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-178 602.78,-178 602.78,4 -4,4"></polygon> <g id="clust1" class="cluster">
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-178 602.78,-178 602.78,4 -4,4"></polygon> <g id="clust3" class="cluster">
+<title>
+cluster3
+</title>
+<polygon fill="none" stroke="white" points="477.53,-8 477.53,-158 590.78,-158 590.78,-8 477.53,-8"></polygon> <text text-anchor="middle" x="534.15" y="-136" font-family="sans-serif" font-size="20.00">outputs</text> </g> <g id="clust1" class="cluster">
 <title>
 cluster1
 </title>
@@ -588,11 +570,7 @@ cluster1
 <title>
 cluster2
 </title>
-<polygon fill="none" stroke="white" points="249.04,-60 249.04,-166 420.53,-166 420.53,-60 249.04,-60"></polygon> <text text-anchor="middle" x="334.79" y="-144" font-family="sans-serif" font-size="20.00">statistical modeling</text> </g> <g id="clust3" class="cluster">
-<title>
-cluster3
-</title>
-<polygon fill="none" stroke="white" points="477.53,-8 477.53,-158 590.78,-158 590.78,-8 477.53,-8"></polygon> <text text-anchor="middle" x="534.15" y="-136" font-family="sans-serif" font-size="20.00">outputs</text> </g> <!-- data --> <g id="node1" class="node">
+<polygon fill="none" stroke="white" points="249.04,-60 249.04,-166 420.53,-166 420.53,-60 249.04,-60"></polygon> <text text-anchor="middle" x="334.79" y="-144" font-family="sans-serif" font-size="20.00">statistical modeling</text> </g> <!-- data --> <g id="node1" class="node">
 <title>
 data
 </title>
@@ -732,10 +710,12 @@ join-&gt;pred
 </section>
 <section id="constraint-strength" class="slide level2">
 <h2>Constraint strength</h2>
-<p>In practice, <span class="math inline">\(\lambda\)</span> controls the strength of the constraint and thus the sparsity:</p>
+<p><span class="math inline">\(\lambda\)</span> controls the strength of the <span class="math inline">\(L_1\)</span> penalty. <span class="math inline">\(\lambda\)</span> can be defined as the amount of shrinkage:</p>
 <ul>
-<li class="fragment"><p>Larger <span class="math inline">\(\lambda\)</span> ➜ stronger constraint ➜ more sparse</p></li>
-<li class="fragment"><p>Smaller <span class="math inline">\(\lambda\)</span> ➜ weaker constraint ➜ less sparse</p></li>
+<li class="fragment">When <span class="math inline">\(\lambda = 0\)</span>, no parameters are eliminated. The estimate is equal to the one found without constrains.</li>
+<li class="fragment">As <span class="math inline">\(\lambda\)</span> increases, more and more coefficients are set to zero and eliminated (theoretically, when <span class="math inline">\(\lambda = \infty\)</span>, all coefficients are eliminated).</li>
+<li class="fragment">As <span class="math inline">\(\lambda\)</span> increases, bias increases but variance decreases. (More precision but less accuracy).</li>
+<li class="fragment">As <span class="math inline">\(\lambda\)</span> decreases, variance increases but bias decreases. (More accuracy but less precision).</li>
 </ul>
 </section>
 <section id="selecting-lambda" class="slide level2">
@@ -892,7 +872,7 @@ join-&gt;pred
 <ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Preprocessing</a></li><li><a href="#tabset-1-2"><span class="math inline">\(\lambda\)</span> selection</a></li><li><a href="#tabset-1-3">Refitting</a></li><li><a href="#tabset-1-4">Accuracy</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1">
-<p>Log-transform, center and scale, but don’t trim outliers.</p>
+<p>Log-transform, center and scale.</p>
 <div class="cell" data-hash="week4-lasso_cache/revealjs/unnamed-chunk-10_303e87a86c12089f8b60fa22bfbc7f1d">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">library</span>(tidymodels)</span>
 <span id="cb2-2"><a href="#cb2-2"></a></span>

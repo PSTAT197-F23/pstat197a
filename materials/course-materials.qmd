@@ -72,5 +72,6 @@ bibliography: slides/refs.bib
 
 -   ***Monday meeting:*** random forests cont'd; logistic regression \[[slides](slides/week4-logistic.qmd)\]
 -   ***Section meeting:*** logistic regression and classification metrics \[[activity](labs/lab4-logistic/lab4-logistic.qmd)\]
+-   ***Wednesday meeting:*** LASSO regularization \[[slides](slides/week4-lasso.qmd)\]
 -   ***Assignments:***
     -   second group assignment due ***Tuesday, Nov 7, 11:59pm PST*** \[[accept via GH classroom](https://classroom.github.com/a/HE7dOu8O)\] \[[group assignments](https://docs.google.com/spreadsheets/d/1f4YbGYP4SV0fXBAHSSE7dVXiZz-pb9p531E3U3g66As/edit?usp=sharing)\]

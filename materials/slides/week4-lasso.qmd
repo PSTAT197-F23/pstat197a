@@ -20,26 +20,6 @@ execute:
 ---
 
 
-# Design assessment
-
-## 10 Minute Activity
-
-With your table, share your diagrams.
-
--   identify common elements/aspects
-
--   pick one or a blend that you like best and sketch it on the whiteboard
-
-## Design assessment
-
-How would you score the proteomics analysis along the following dimensions?
-
--   ***reproducibility:*** how easy is it to reproduce the results exactly?
-
--   ***transparency:*** how widely distributed is potential variability in results across the elements of the data analysis?
-
--   ***replicability:*** how likely is it that if the study were conducted with new subjects, the same panel would be obtained?
-
 # An alternative analysis
 
 ## Two steps
@@ -59,6 +39,7 @@ Here's a representation of the design of the analysis procedure.
 
 ```{dot}
 digraph G {
+    size="15,15";  // Adjust the size as needed
     layout = dot
     rankdir = LR
     fontname = "sans-serif"
@@ -113,6 +94,7 @@ If we did *simultaneous* selection and estimation, our schematic might look like
 
 ```{dot}
 digraph G {
+    size="20,20";  // Adjust the size as needed
     layout = dot
     rankdir = LR
     fontname = "sans-serif"
@@ -254,11 +236,12 @@ estimates %>%
 
 ## Constraint strength
 
-In practice, $\lambda$ controls the strength of the constraint and thus the sparsity:
+$\lambda$ controls the strength of the $L_1$ penalty. $\lambda$ can be defined as the amount of shrinkage:
 
--   Larger $\lambda$ ➜ stronger constraint ➜ more sparse
-
--   Smaller $\lambda$ ➜ weaker constraint ➜ less sparse
+- When $\lambda = 0$, no parameters are eliminated. The estimate is equal to the one found without constrains.
+- As $\lambda$ increases, more and more coefficients are set to zero and eliminated (theoretically, when $\lambda = \infty$, all coefficients are eliminated).
+- As $\lambda$ increases, bias increases but variance decreases. (More precision but less accuracy).
+- As $\lambda$ decreases, variance increases but bias decreases. (More accuracy but less precision).
 
 ## Selecting $\lambda$
 
@@ -407,7 +390,7 @@ as_tibble(x_new) %>%
 ::: panel-tabset
 ### Preprocessing
 
-Log-transform, center and scale, but don't trim outliers.
+Log-transform, center and scale.
 
 ```{r}
 #| echo: true
