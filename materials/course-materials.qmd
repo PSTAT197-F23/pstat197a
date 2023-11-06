@@ -75,3 +75,30 @@ bibliography: slides/refs.bib
 -   ***Wednesday meeting:*** LASSO regularization \[[slides](slides/week4-lasso.qmd)\]
 -   ***Assignments:***
     -   second group assignment due ***Tuesday, Nov 7, 11:59pm PST*** \[[accept via GH classroom](https://classroom.github.com/a/HE7dOu8O)\] \[[group assignments](https://docs.google.com/spreadsheets/d/1f4YbGYP4SV0fXBAHSSE7dVXiZz-pb9p531E3U3g66As/edit?usp=sharing)\]
+
+## Module 2: fraud claims
+
+*Objectives: introduce NLP techniques for converting text to data and web scraping tools in R; discuss dimension reduction techniques; introduce multiclass classification; learn to process text, fit multinomial logistic regression models, and train neural networks in R.*
+
+### Week 5
+
+-   ***Monday meeting:*** data introduction and basic NLP techniques \[[slides](slides/week5-text.qmd)\]
+
+<!--
+your comment goes here
+
+-   ***Section meeting:*** string manipulation and text processing in R \[[activity](labs/lab5-text/lab5-text.qmd)\]
+-->
+
+-   ***Wednesday meeting:*** dimension reduction; multinomial logistic regression \[[slides](slides/week5-multinomial.qmd)\]
+<!--
+\[[activity](activities/multinomial-logit.qmd)\]
+-->
+
+-   Optional further reading:
+
+    -   MDSR [Ch. 19](https://mdsr-book.github.io/mdsr2e/ch-text.html)
+
+    -   @cambria2014jumping
+
+    -   @khan2010review
