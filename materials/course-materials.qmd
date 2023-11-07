@@ -84,11 +84,8 @@ bibliography: slides/refs.bib
 
 -   ***Monday meeting:*** data introduction and basic NLP techniques \[[slides](slides/week5-text.qmd)\]
 
-<!--
-your comment goes here
-
 -   ***Section meeting:*** string manipulation and text processing in R \[[activity](labs/lab5-text/lab5-text.qmd)\]
--->
+
 
 -   ***Wednesday meeting:*** dimension reduction; multinomial logistic regression \[[slides](slides/week5-multinomial.qmd)\]
 <!--

@@ -214,7 +214,7 @@
     "href": "materials/course-materials.html#module-2-fraud-claims",
     "title": "Course materials",
     "section": "Module 2: fraud claims",
-    "text": "Module 2: fraud claims\nObjectives: introduce NLP techniques for converting text to data and web scraping tools in R; discuss dimension reduction techniques; introduce multiclass classification; learn to process text, fit multinomial logistic regression models, and train neural networks in R.\n\nWeek 5\n\nMonday meeting: data introduction and basic NLP techniques [slides]\n\n\n\nWednesday meeting: dimension reduction; multinomial logistic regression [slides] \nOptional further reading:\n\nMDSR Ch. 19\nCambria and White (2014)\nKhan et al. (2010)"
+    "text": "Module 2: fraud claims\nObjectives: introduce NLP techniques for converting text to data and web scraping tools in R; discuss dimension reduction techniques; introduce multiclass classification; learn to process text, fit multinomial logistic regression models, and train neural networks in R.\n\nWeek 5\n\nMonday meeting: data introduction and basic NLP techniques [slides]\nSection meeting: string manipulation and text processing in R [activity]\nWednesday meeting: dimension reduction; multinomial logistic regression [slides] \nOptional further reading:\n\nMDSR Ch. 19\nCambria and White (2014)\nKhan et al. (2010)"
   },
   {
     "objectID": "materials/course-materials.html#module-3-soil-temperatures",
