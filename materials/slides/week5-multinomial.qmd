@@ -256,7 +256,7 @@ Regularization can also be used to reduce overfitting.
 ## Activity 2 (10 min)
 
 1.  Follow activity instructions to fit a logistic regression model with an elastic net penalty to the training data.
-2.  Quantify classification accuracy on the test data using sensitivity, specificity, and AUROC.
+2.  Quantify classification accuracy on the test data using sensitivity, specificity.
 
 ```{r}
 # store predictors and response as matrix and vector

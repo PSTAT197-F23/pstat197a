@@ -87,10 +87,8 @@ bibliography: slides/refs.bib
 -   ***Section meeting:*** string manipulation and text processing in R \[[activity](labs/lab5-text/lab5-text.qmd)\]
 
 
--   ***Wednesday meeting:*** dimension reduction; multinomial logistic regression \[[slides](slides/week5-multinomial.qmd)\]
-<!--
-\[[activity](activities/multinomial-logit.qmd)\]
--->
+-   ***Wednesday meeting:*** dimension reduction; multinomial logistic regression \[[slides](slides/week5-multinomial.qmd)\]\[[activity](activities/multinomial-logit.qmd)\]
+
 
 -   Optional further reading:
 

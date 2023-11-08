@@ -241,7 +241,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="setup" class="level2">
 <h2 class="anchored" data-anchor-id="setup">Setup</h2>
-<p>While we are getting started, on your table’s workstation open RStudio and execute the following command:</p>
+<p>While we are getting started, open RStudio and execute the following command:</p>
 <div class="cell" data-hash="multinomial-logit_cache/html/unnamed-chunk-1_7eb5e6e93d0c69ae9b2342b8f066cd4b">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">'https://raw.githubusercontent.com/pstat197/pstat197a/main/materials/scripts/package-installs.R'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -293,10 +293,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="activity-1-10-min" class="level2">
 <h2 class="anchored" data-anchor-id="activity-1-10-min">Activity 1 (10 min)</h2>
-<p>You’ll be given about ten minutes to do the following on your group’s workstation.</p>
+<p>You’ll be given about ten minutes to do the following:</p>
 <ol type="1">
 <li>Partition the data into training and test sets.</li>
-<li><em>Using the training data,</em> find principal components that preserve at least 80% of the total variance and project the data onto those PCs.</li>
+<li><em>Using the training data,</em> find principal components that preserve at least 70% of the total variance and project the data onto those PCs.</li>
 <li>Fit a logistic regression model to the training data.</li>
 </ol>
 <section id="step-1-partitioning" class="level3">
@@ -356,7 +356,7 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Briefly discuss with your table: what do you think the warning means?</p>
+<p>Briefly discuss with your peers: what do you think the warning means?</p>
 </div>
 </div>
 </section>
@@ -366,13 +366,13 @@ Important
 <p>This part will guide you through the following steps.</p>
 <ol type="1">
 <li>Fit a logistic regression model with an elastic net penalty to the training data.</li>
-<li>Quantify classification accuracy on the test data using sensitivity, specificity, and AUROC.</li>
+<li>Quantify classification accuracy on the test data using sensitivity, specificity.</li>
 </ol>
 <section id="step-1-fit-a-regularized-logistic-regression" class="level3">
 <h3 class="anchored" data-anchor-id="step-1-fit-a-regularized-logistic-regression">Step 1: fit a regularized logistic regression</h3>
 <p><code>glmnet</code> implements the elastic net penalty when a parameter <code>alpha</code> is provided. In the function call, a predictor matrix and response vector are used to specify the model instead of a formula.</p>
 <p>Use the code chunk below to fit the model for a path of regularization strengths, select a strength, and extract the fitted model corresponding to that strength. <em>Do not adjust the RNG seed.</em></p>
-<div class="cell" data-hash="multinomial-logit_cache/html/unnamed-chunk-6_2de5fb87238c3bf26a00edad90d53a59">
+<div class="cell" data-hash="multinomial-logit_cache/html/unnamed-chunk-6_161fa8bb66f52ca7f42e097171d5fdfd">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># store predictors and response as matrix and vector</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>x_train <span class="ot">&lt;-</span> train <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span>bclass) <span class="sc">%&gt;%</span> <span class="fu">as.matrix</span>()</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>y_train <span class="ot">&lt;-</span> train_labels <span class="sc">%&gt;%</span> <span class="fu">pull</span>(bclass)</span>
@@ -384,7 +384,7 @@ Important
 <span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>                  <span class="at">family =</span> <span class="st">'binomial'</span>,</span>
 <span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>                  <span class="at">alpha =</span> alpha_enet)</span>
 <span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="co"># choose a strength by cross-validation</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="co"># choose a constrait strength by cross-validation</span></span>
 <span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">102722</span>)</span>
 <span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>cvout <span class="ot">&lt;-</span> <span class="fu">cv.glmnet</span>(<span class="at">x =</span> x_train, </span>
 <span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>                <span class="at">y =</span> y_train, </span>
@@ -459,7 +459,7 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Briefly discuss with your table:</p>
+<p>Briefly discuss:</p>
 <ol type="1">
 <li>How satisfied are you with the predictive performance?</li>
 <li>Does the classifier do a better job picking out relevant pages or irrelevant pages?</li>
@@ -502,7 +502,7 @@ Important
 </section>
 <section id="step-2-predictions" class="level3">
 <h3 class="anchored" data-anchor-id="step-2-predictions">Step 2: predictions</h3>
-<p>The predictions from this model are a set of proabilities, one per class:</p>
+<p>The predictions from this model are a set of probabilities, one per class:</p>
 <div class="cell" data-hash="multinomial-logit_cache/html/unnamed-chunk-10_86ccee3dc939120428479316add9a574">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>preds_multi <span class="ot">&lt;-</span> <span class="fu">predict</span>(fit_reg_multi, </span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>        <span class="at">s =</span> cvout_multi<span class="sc">$</span>lambda.min, </span>
