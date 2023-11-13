@@ -86,9 +86,7 @@ bibliography: slides/refs.bib
 
 -   ***Section meeting:*** string manipulation and text processing in R \[[activity](labs/lab5-text/lab5-text.qmd)\]
 
-
 -   ***Wednesday meeting:*** dimension reduction; multinomial logistic regression \[[slides](slides/week5-multinomial.qmd)\]\[[activity](activities/multinomial-logit.qmd)\]
-
 
 -   Optional further reading:
 
@@ -97,3 +95,23 @@ bibliography: slides/refs.bib
     -   @cambria2014jumping
 
     -   @khan2010review
+
+### Week 6
+
+-   ***Monday meeting:*** feedforward neural networks \[[slides](slides/week6-nn.qmd)\]
+
+
+
+
+
+-   ***Assignments:***
+
+    -   Midquarter assessments \[[form](https://forms.gle/v7xUk83EfxiFEKVS9)\]
+    -   Read @emmert2020introductory (§1-5, §9) and prepare a [reading response](https://forms.gle/w9qNGDgHv3uKuQXA8)
+    -   third group assignment ***due Tuesday, November 22, 11:59pm PST*** \[[accept via GH classroom](https://classroom.github.com/a/Cj8pvnyX)\] \[[group assignments](https://docs.google.com/spreadsheets/d/1Ii8ZmtrYH9MLHPnOPb3cy6xMkwY7pvljZbX0lwD6OT0/edit?usp=sharing)\]
+
+-   Optional further reading:
+
+    -   @alzubaidi2021review
+
+    -   @Goodfellow-et-al-2016 Ch. 6 (advanced)
