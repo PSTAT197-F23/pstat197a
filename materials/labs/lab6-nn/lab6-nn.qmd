@@ -9,9 +9,6 @@ execute:
   cache: true
 ---
 
-## Pre-lab activity
-
-Please complete this activity before arriving at your section meeting. It should only take you about 15 minutes.
 
 ### Python installation
 
