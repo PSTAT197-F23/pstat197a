@@ -119,3 +119,16 @@ bibliography: slides/refs.bib
 *Objectives: build a forecasting model; introduce concepts of spatial and temporal correlation; discuss function approximation and curve fitting with regression techniques; fit elementary time series models and regression with AR errors; spatial interpolation.*
 
 -   ***Wednesday meeting:*** data introduction; function approximation using basis expansions \[[slides](slides/week7-curvefitting.qmd)\]
+
+### Week 7
+
+-   ***Section meeting:*** curve fitting \[[activity](labs/lab7-curvefitting/lab7-curvefitting.qmd)\]
+
+-   ***Monday meeting:*** temporal correlation; a forecasting model \[[slides](slides/week7-forecasting.qmd)\]
+
+-   ***Monday meeting:*** NO CLASS
+
+-   Optional further reading (available through UCSB library)
+
+    -   Sections 1.1, 1.2, and 2.3 in @shumway2017time
+    -   @perperoglou2019review
