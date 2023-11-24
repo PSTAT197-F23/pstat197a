@@ -1,0 +1,31 @@
+---
+title: "Results from claims assignment"
+subtitle: "PSTAT197A/CMPSC190DD Fall 2023"
+institute: 'UCSB'
+bibliography: refs.bib
+format: 
+  revealjs:
+    incremental: true
+    # footer: 'PSTAT197A/CMPSC190DD Fall 2023'
+    # logo: 'img/ucsbds_hex.png'
+    fig-width: 6
+    fig-height: 4
+    fig-align: 'left'
+    slide-number: true
+code-copy: true
+execute:
+  message: false
+  warning: false
+  echo: true
+  cache: true
+---
+
+## Today's agenda
+
+
+1.  Discuss vignette guidelines
+2.  Remaining time to organize in groups
+
+## Vignette guidelines
+
+Let's review in groups.

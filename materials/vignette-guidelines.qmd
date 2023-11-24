@@ -11,7 +11,7 @@ This document sets expectations for the organization and content of vignette rep
 
 ## Configuring your repository
 
-Create a public repository in the PSTAT197 workspace and add your teammates as collaborators.
+Create a public repository in the PSTAT197-F23 workspace and add your teammates as collaborators.
 
 Select options at the creation step to initialize the repository with:
 
@@ -19,7 +19,6 @@ Select options at the creation step to initialize the repository with:
 
 -   a .gitignore file
 
--   a license
 
 Give the repository a descriptive name. Use the naming convention
 
@@ -41,38 +40,44 @@ If your project has a single main file -- in this case the vignette document -- 
 
 The high-level directories should clearly differentiate the main project contents, and overall there should not be too many levels of subdirectory, especially for a simple project like a code vignette. Your directory structure might look something like this in the end:
 
-    root directory
-    |-- data
-        |-- raw
-        |-- processed
-    |-- scripts
-        |-- drafts
-        |-- vignette-script.R
-    |-- img
-        |-- fig1.png
-        |-- fig2.png
-    |-- vignette.qmd
-    |-- vignette.html
-    |-- README.md
+```         
+root directory
+|-- data
+    |-- raw
+    |-- processed
+|-- scripts
+    |-- drafts
+    |-- vignette-script.R
+|-- img
+    |-- fig1.png
+    |-- fig2.png
+|-- vignette.qmd
+|-- vignette.html
+|-- README.md
+```
 
 As a guiding principle, each subdirectory should contain *either*
 
 -   (a)a few primary files and one or more subdirectories
 
-        scripts
-        |-- functions
-        |-- drafts
-        |-- exploratory-analysis.R
-        |-- model-fitting.R
-        |-- visualizations.R
+    ```         
+    scripts
+    |-- functions
+    |-- drafts
+    |-- exploratory-analysis.R
+    |-- model-fitting.R
+    |-- visualizations.R
+    ```
 
 -   \(b\) a single file type with an obvious naming convention
 
-        img
-        |-- fig-autocorrelation.png
-        |-- fig-forecasts.png
-        |-- fig-rawseries.png
-        |-- logo-ucsb.png
+    ```         
+    img
+    |-- fig-autocorrelation.png
+    |-- fig-forecasts.png
+    |-- fig-rawseries.png
+    |-- logo-ucsb.png
+    ```
 
 Try to organize your repository so that it is easy to navigate for the general coding public (and for your future self).
 
@@ -82,7 +87,7 @@ Your README file should contain five main pieces of information in the following
 
 1.  A one-sentence description at the very top before any (sub)headers:
 
-    > *Vignette on implementing distribution-based clustering using cell type data; created as a class project for PSTAT197A in Fall 2022.*
+    > *Vignette on implementing distribution-based clustering using cell type data; created as a class project for PSTAT197A in Fall 2023.*
 
 2.  Contributors
 
@@ -112,10 +117,4 @@ Your work will be evaluated on:
 
 -   the correctness of the data analysis and any other technical aspects of the vignette
 
-## Deadlines
 
-There are two deadlines associated with this project, a draft deadline and a final deadline.
-
--   *draft deadline* **Thursday, December 1, 2pm PST** (in class) -- be prepared to share a draft of your primary vignette document and explain it to a small group of other students
-
--   *final deadline* **Thursday, December 8, 11:59pm PST** -- the repository and all contained files should be in final form ready for evaluation by course staff
