@@ -124,7 +124,7 @@ bibliography: slides/refs.bib
 
 -   ***Section meeting:*** curve fitting \[[activity](labs/lab7-curvefitting/lab7-curvefitting.qmd)\]
 
--   ***Monday meeting:*** temporal correlation; a forecasting model \[[slides](slides/week7-forecasting.qmd)\][Recording]
+-   ***Monday meeting:*** temporal correlation; a forecasting model \[[slides](slides/week7-forecasting.qmd)\]\[Recording\]
 
 -   ***Monday meeting:*** NO CLASS
 
@@ -135,26 +135,22 @@ bibliography: slides/refs.bib
 
 ### Week 8
 
--   ***Monday meeting:*** spatial prediction \[[slides](slides/week8-spatial.qmd)\][Recording]
+-   ***Monday meeting:*** spatial prediction \[[slides](slides/week8-spatial.qmd)\]\[Recording\]
 
 -   ***Section meeting:*** forecasting \[[activity](labs/lab8-forecasting/lab8-forecasting.qmd)\]
-
-
 
 ### Module 4: vignettes
 
 *Objectives: learn independently about a method of choice and prepare a teaching vignette illustrating its use; create shared reference material potentially useful for project work.*
 
-
-
 -   ***Wednesday meeting:*** discussion on results of claims module; vignette workshopping \[[slides](slides/week9-claimsresults.qmd)\]
 
 -   ***Assignments:*** vignettes \[[guidelines](vignette-guidelines.qmd)\]
-    
 
     -   drafts due in class **Wednesday, 12/6 2pm PST**
 
     -   final version due **Wednesday, 12/13 11:59pm PST**
+    
+### Week 10
 
-
-
+-   ***Wednesday meeting:*** vignette presentation/exchange/feedback \[[feedback form](https://forms.gle/Cpy1Mai8N3kTW8B88)\]
