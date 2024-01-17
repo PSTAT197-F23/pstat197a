@@ -1,0 +1,39 @@
+---
+title: "Individual project summary guidelines"
+---
+
+The purpose of this assignment is to compose a short project summary of your own authorship that, together with your poster, could comprise a work sample to supplement employment or graduate program applications.
+
+## Instructions
+
+Prepare a 1-3 page (single- or double-spaced) project summary highlighting
+
+1.  Research objectives and findings
+
+2.  Project outcomes
+
+3.  Your contributions
+
+Think of the document as an extended abstract. You do not need to go in-depth on methods and results, though these aspects of your work should be mentioned.
+
+## Suggested format
+
+You can arrange the document as you please and as suits your preferences and project, but as a starting point, a recommended general format is outlined below.
+
+**Front matter.** At the top of your document, include a title, an abstract, and a statement of your role or area of contribution. Assume your audience may only read this portion in detail and skim the rest of the document, so you want to be sure that based on this alone they can ascertain: (i) what the project is about; (ii) the main achievements; and (iii) your role on the team.
+
+**Project overview.** Provide a brief introduction to the research questions, and indicate the data and methodology. Describe your main findings (one paragraph per finding is suggested) and include figures. Write this in an academic style.
+
+**Project outcomes.** Indicate key outputs/outcomes -- outputs include your poster presentation and any deliverables rendered to your sponsor, such as additional internal presentations or software products. If applicable, you can mention other anticipated outputs such as manuscripts in preparation, but only if there is a concrete plan for making that happen -- don't include a wish list here. If possible, include citations/links.
+
+**Personal contributions.** Detail which parts of the project work you were primarily responsible for. This may include specific analyses (*e.g.*, "I worked primarily on developing and implementing the cluster analysis arm of the project") or specific roles (*e.g.,* "I managed code repositories and acted as primary responsible for integrating team members' work into a cohesive body").
+
+**Supplemental information.** If there is any additional material you feel is important to include or mention as part of your work sample that is not covered by the rest of the document or the poster, you can include that here.
+
+## Evaluation
+
+Your summary will be evaluated based primarily on clarity of writing, in particular:
+
+-   effectiveness as a summary of research
+
+-   clarity of personal contributions to the project

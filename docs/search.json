@@ -81,7 +81,7 @@
     "href": "index.html",
     "title": "Data science capstone preparation",
     "section": "",
-    "text": "PSTAT197A/CMPSC190DD is the first course in UC Santa Barbara’s yearlong data science capstone sequence. The course aims to provide preparation and training to undergraduate students of any discipline with a basic background in data science for an independent research or project experience.\nMost students take this course to prepare for their work on sponsored team projects during the remainder of the capstone sequence (PSTAT197B-C/CMPSC190DE-DF). However, some may elect to take the course for other reasons, such as an upcoming faculty-supervised research project or internship.\nThis site hosts course information and resources for currently enrolled students."
+    "text": "For participating students, the capstone is a year-long course sequence comprising two distinct portions: a preparatory course in data science topics and collaborative research skills (PSTAT197A/CMPSC190DD, offered fall term) and two experiential learning courses in which students work in teams on interdisciplinary projects sponsored by an external partner and advised by a technical specialist (PSTAT197B-C/CMPSC190DE-DF, offered winter and spring terms). The course sequence culminates with a public showcase of student work."
   },
   {
     "objectID": "materials/activities/github-basics.html",
@@ -3071,5 +3071,243 @@
     "title": "Training neural networks",
     "section": "",
     "text": "Please complete this activity before arriving at your section meeting. It should only take you about 15 minutes.\n\n\nWe will use packages that interface to python from R to train neural networks in this lab. For this a current python installation is needed.\nSelect the download appropriate for your operating system here and follow installation instructions.\n\n\n\nOpen RStudio and execute the following commands in the console. You should have already installed keras with other packages in the first lab; however, if library(keras) returns an error execute install.packages('keras') and then try again. This will install Tensorflow (for python) in a manner suitable for use in R, along with a few other packages.\n\nlibrary(keras)\ninstall_keras()\n\nTo confirm the installation worked, try:\n\nlibrary(tensorflow)\ntf$constant('Hello world')\n\ntf.Tensor(b'Hello world', shape=(), dtype=string)\n\n\nYou may see a long message related to CUDA libraries in addition to the output shown above, but if you see this output at the end, your installation was successful.\nIf you did not see the expected output, try configuring a virtual environment for the installation explicitly as shown here.\nIf you are unable to troubleshoot after a short period of time, partner with a classmate for the lab activity and then ask for help from course staff."
+  },
+  {
+    "objectID": "pstat197bc/about-syllabus.html",
+    "href": "pstat197bc/about-syllabus.html",
+    "title": "Course syllabus",
+    "section": "",
+    "text": "Students will devote the vast majority of their time and effort in this course to project work and are expected to engage fully with their projects. Class meetings will be conducted as seminars with rotating presentations by project teams. Students will meet weekly with their project teams and regular progress is expected. Each team will prepare one written project summary at the end of winter quarter and one poster presentation at the end of spring quarter.\nConcurrent course listing: PSTAT197B-C and CMPSC190DE-DF are held concurrently; enrollment is by instructor consent and admitted students may enroll under either listing. The course content, expectations, assessments, and course policies are identical for students enrolled in either course.\nCatalog description: Research opportunities for undergraduate students. Students practice their data science and applied statistics skills by completing a hands-on team project on a practical problem proposed by a project sponsor. Students are expected to give regular oral presentations and prepare at least one written report on their research. Prerequisite: PSTAT197A/CMPSC190DD."
+  },
+  {
+    "objectID": "pstat197bc/about-syllabus.html#learning-outcomes",
+    "href": "pstat197bc/about-syllabus.html#learning-outcomes",
+    "title": "Course syllabus",
+    "section": "Learning outcomes",
+    "text": "Learning outcomes\nThrough their project work and participation in class meetings, students can expect to:\n\nmake original contributions on a methodological or applied research topic involving statistics, data science, and computational science;\ndevelop domain expertise in the area(s) of application relevant to their project topic;\ndevelop and practice effective strategies for communicating research outcomes with clarity and confidence;\nimprove collaboration and teamwork skills;\ndeepen their understanding of careers in data science;\nproduce a strong work sample for inclusion in a professional portfolio."
+  },
+  {
+    "objectID": "pstat197bc/about-syllabus.html#meetings",
+    "href": "pstat197bc/about-syllabus.html#meetings",
+    "title": "Course syllabus",
+    "section": "Meetings",
+    "text": "Meetings\n\nWinter 2024\nClass meetings are held once weekly 2pm – 3:15pm Wednesdays in North Hall 1105.\nProject meetings are held once weekly in teams at a time of their choosing either via Zoom, on campus, or on site with the project sponsor.\nWe will not meet regularly at other officially scheduled times but we will use the Monday slot as an alternate class meeting time.\nStudents are encouraged to block off section times in their schedule to facilitate convenient scheduling of project work. Section rooms are available during those times as workspaces."
+  },
+  {
+    "objectID": "pstat197bc/about-syllabus.html#people",
+    "href": "pstat197bc/about-syllabus.html#people",
+    "title": "Course syllabus",
+    "section": "People",
+    "text": "People\n\nInstructor\nLaura Baracaldo, Visiting Assistant Professor, Statistics.\n\n\nProject advisors\n(In alphabetical order by last name)\n\nLaura Baracaldo, Visiting Assistant Professor, Statistics\nAlex Franks, Assistant Professor, Statistics\nYan Lashchev, Undergraduate Program Advisor, Statistics\nJose Nino, Data Science Student Advisor, Computer Science\nErika McPhillips, PhD Student, Statistics\n\n\n\nProject sponsors\n\nJordan Tran, Appfolio\nNate Emery, CITRAL\nMichaela Alksne, Scripps Institution of Oceanography\nKatja Seltmann, CCBER\nShraddhanand Shukla, Climate Hazards Center, Geography Department\nMichael Schmidt, Nation Builder\nMatto Mildenberger, Political Science Department\nEric Leidersdorf, P3\nDerek Mendez, SLAC National Accelerator Laboratory"
+  },
+  {
+    "objectID": "pstat197bc/about-syllabus.html#expectations",
+    "href": "pstat197bc/about-syllabus.html#expectations",
+    "title": "Course syllabus",
+    "section": "Expectations",
+    "text": "Expectations\nTime commitment. The course carries a time commitment of 12 hours per week (3 hours per credit unit). Class and project meetings account for roughly 2 hours per week, and class assignments are kept to a minimum to facilitate project work; thus, students should anticipate dedicating 8-10 hours outside of the classroom to project work each week. Students are strongly encouraged to establish a secondary meeting without their advisors each week to help ensure effective time and task management among the group.\nTeam contracts. Each team will develop a contract articulating their goals as a group, basic agreements about communication and collaboration, and steps that will be taken in the event of failure to uphold those agreements.\nTeam roles. Each student will take on one of the following roles per term by mutual agreement with their team :\n\nspokesperson (one person) who is responsible for communicating with advisors and course staff on behalf of the team;\nmeeting organizer(one person) who is responsible for arranging project meetings and keeping time during meetings;\nnote-takers(two people) who is responsible for maintaining a written record of each meeting;\nrepository/data/document managers(one-two people) who are responsible for coordinating access to project files and keeping them organized;\nequity manager(one person) who is responsible for ensuring a fair distribution of work among the team members.\n\nPeer review. Teams will conduct an anonymized peer review each quarter in which each student rates their teammates on:\n\ncooperation with the group;\ncommunication;\nadherence to with agreements established by the group contract;\nfulfillment of their assigned role;\nthe extent to which they contributed their fair share to project work.\n\nAggregated results will be used to provide individual feedback and identify any necessary interventions to improve quality of collaboration.\nClass presentations. Each team is expected to present some of their work once per term to the class. In-class presentations should be informal and allow time for intermittent discussion and questions. In Winter, teams will give group presentations and should prepare about 10 slides and a 1-2 page handout. It is strongly recommended that just one team member give each presentation. In Spring, each team member will take a turn presenting individually to a smaller audience consisting of their teammates and one other project group.\nPoster presentation. A public showcase of project work will be held on campus at the end of the Spring quarter. Each team is expected to prepare a poster to present at the showcase.\nNon-disclosure agreements. Some projects are subject to non-disclosure agreements (NDAs) between the university and the sponsoring organization. If so, project advisors will notify students of the terms and share copies of the NDA; students are expected to uphold any such NDAs but should not directly sign any agreements."
+  },
+  {
+    "objectID": "pstat197bc/about-syllabus.html#assessments",
+    "href": "pstat197bc/about-syllabus.html#assessments",
+    "title": "Course syllabus",
+    "section": "Assessments",
+    "text": "Assessments\nStudents will be evaluated based on the following:\n\nattendance record and class assignments;\nend-of-term advisor assessments of individual participation and contributions;\ninstructor assessments of in-class presentations and poster;\npeer reviews and end-of-term individual reflections."
+  },
+  {
+    "objectID": "pstat197bc/about-syllabus.html#policies",
+    "href": "pstat197bc/about-syllabus.html#policies",
+    "title": "Course syllabus",
+    "section": "Policies",
+    "text": "Policies\nAttendance. Regular attendance at class meetings is expected. Each student can miss one class meeting without notice; further absences may impact course grades. Students are responsible for material discussed in their absence and should review notes and consult a classmate.\nDeadlines. Students are expected to meet assignment deadlines in a timely manner. All deadlines have a 24-hour grace period. Late or amended work may or may not be accepted at the instructor’s discretion.\nEmail. Course staff will make their best effort to reply to email within 48 weekday hours. However, due to high volume, staff cannot guarantee that all messages will receive replies.\nIllness. Students who are ill are required to stay home. Students ill with COVID-19 must comply with university policy regarding reporting and isolation. Accommodations will be made to ensure that students absent due to illness do not fall behind.\nAccommodations. Reasonable accommodations will be made for any student with a qualifying disability. Such requests should be made through the Disabled Students Program (DSP). More information, instructions on how to access accommodations, and information on related resources can be found on the DSP website. Note: in this class there are no timed assessments.\nLetter grades. Letter grades are assigned based only on the assessments identified above and according to university guidelines, with the relative weighting of assessments determined at the discretion of the instructor. While grade calculations will not be disclosed, students are entitled to an explanation of the criteria used to determine their grades if desired. Grades will not be changed except in the case of clerical errors. If students feel their grade has been unfairly assigned, they are entitled to contest it following UCSB procedure for contesting grades.\nConduct. All course participants are expected to maintain respectful and honorable conduct consistent with UCSB ethical standards. Students uncomfortable with the behavior of another course participant for any reason should notify the instructor, course staff, or, if the complaint relates to course staff conduct, an administrative or departmental officer. Evidence of academic dishonesty will be reported to the Office of Student Conduct (OSC); evidence of problematic behavior will be addressed on a case-by-case basis in accord with university policies."
+  },
+  {
+    "objectID": "pstat197bc/work-in-progress-presentation-guidelines.html",
+    "href": "pstat197bc/work-in-progress-presentation-guidelines.html",
+    "title": "Work-in-progress presentations",
+    "section": "",
+    "text": "These work-in-progress presentations are intended to provide:\nWork-in-progress presentations should not aim to provide a broad overview of the project, but instead focus on the leading edge of your (not your teammates’) efforts. So, your goal as presenter should be to identify the most pressing problem you’re currently working on resolving, bring your audience up to speed on that problem, and pose a few specific questions you’d like the group to discuss with you."
+  },
+  {
+    "objectID": "pstat197bc/work-in-progress-presentation-guidelines.html#content",
+    "href": "pstat197bc/work-in-progress-presentation-guidelines.html#content",
+    "title": "Work-in-progress presentations",
+    "section": "Content",
+    "text": "Content\nYou will have 15 minutes to present the problem you’re currently working on. In this time, you should cover the following points with roughly the suggested time allocations:\n\n(1min) remind the group which project you’re working on and what the overarching goal is\n(2min) identify the specific problem you’re working on addressing right now\n(10min) explain the problem in detail, filling in background information, data attributes, relevant aspects of software design, prior results, etc., as needed as you go\n(2min) pose a few specific questions you’d like to discuss or want advice on\n\nFollowing your presentation, your group will have 15 minutes for discussion (see agenda below).\n\nThink of the presentation less in terms of performing … and more in terms of getting the help you need from others to make further progress. In that spirit, make sure you allow time to present the leading edge of your work. That means you need to be economical in how you get listeners up to steam about the aspects of your project that you already have firmly in place.\n\nYou should aim to cover exactly the material the audience needs to be in an informed position relative to the questions you pose at the end. For some general tips on presenting research, see [this page]."
+  },
+  {
+    "objectID": "pstat197bc/work-in-progress-presentation-guidelines.html#agenda",
+    "href": "pstat197bc/work-in-progress-presentation-guidelines.html#agenda",
+    "title": "Work-in-progress presentations",
+    "section": "Agenda",
+    "text": "Agenda\nFor each presentation, the group should follow this agenda:\n\n(15min) Work-in-progress presentation\n(5-10min) As a group, do the following:\n\nMake sure the audience is all on the same page: are there any aspects of the presentation that need to be clarified? Details that someone at the table wasn’t able to follow? Technical terms that need definition?\nSelect 2 audience members to reflect the presenter’s problem back – have them restate the problem in their own words. Ask the presenter: did they understand the problem correctly?\n\n(5-10min) Return to the presenter’s questions and discuss as a group.\n\nWe will take a 5 minute break between presentations each class meeting."
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html",
+    "href": "pstat197bc/about-winter-meetings.html",
+    "title": "Winter class meetings",
+    "section": "",
+    "text": "[Attendance reporting form] – fill out once per class meeting.\n[Drive folder for winter presentations] – upload your slides and handouts here.\n[Presentation review form] – fill out once per presentation."
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#useful-links",
+    "href": "pstat197bc/about-winter-meetings.html#useful-links",
+    "title": "Winter class meetings",
+    "section": "",
+    "text": "[Attendance reporting form] – fill out once per class meeting.\n[Drive folder for winter presentations] – upload your slides and handouts here.\n[Presentation review form] – fill out once per presentation."
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-1",
+    "href": "pstat197bc/about-winter-meetings.html#week-1",
+    "title": "Winter class meetings",
+    "section": "Week 1",
+    "text": "Week 1\n\nComments: teams should be scheduling their initial project meetings this week to take place during week 2.\nMonday meeting: course overview [slides]\nClass assignments:\n\nread syllabus\nprepare a motivational statement and [submit] by Friday 1/20 11:59pm PST\nprepare a team contract and submit signed copy by Friday 1/27 11:59pm PST [upload to Google drive]"
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-2",
+    "href": "pstat197bc/about-winter-meetings.html#week-2",
+    "title": "Winter class meetings",
+    "section": "Week 2",
+    "text": "Week 2\n\nComments: teams should be scheduling their initial project meetings this week to take place during week 3.\nMonday meeting: course overview [slides]\nClass assignments:\n\nread syllabus\nprepare a motivational statement and [submit] by Friday 1/19 11:59pm PST\nprepare a team contract and submit signed copy by Friday 1/26 11:59pm PST [upload to Google drive]"
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-3",
+    "href": "pstat197bc/about-winter-meetings.html#week-3",
+    "title": "Winter class meetings",
+    "section": "Week 3",
+    "text": "Week 3\n\nComments: re-read project abstract before your team meeting.\nWednesday meeting: getting started and tips for success [slides]"
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-4",
+    "href": "pstat197bc/about-winter-meetings.html#week-4",
+    "title": "Winter class meetings",
+    "section": "Week 4",
+    "text": "Week 4\nComments: teams should have data in hand this week; presentation schedule updated; see meeting notes template\n\nWednesday meeting: Meeting on Wednesday will work as Office Hours\nIn-class presentations to begin next week; should focus on project background, data, goals, and current/planned work\n\nformat: 20min presentation + 10min discussion\nto prepare: 10-15 slides and 1-2 page handout 24h in advance\n[handout template] [evaluation rubric] [last year’s presentations]"
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-5",
+    "href": "pstat197bc/about-winter-meetings.html#week-5",
+    "title": "Winter class meetings",
+    "section": "Week 5",
+    "text": "Week 5\n\nWednesday meeting: Appfolio, CCBER"
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-6",
+    "href": "pstat197bc/about-winter-meetings.html#week-6",
+    "title": "Winter class meetings",
+    "section": "Week 6",
+    "text": "Week 6\n\nWednesday meeting: CITRAL, Geography Department"
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-7",
+    "href": "pstat197bc/about-winter-meetings.html#week-7",
+    "title": "Winter class meetings",
+    "section": "Week 7",
+    "text": "Week 7\n\nWednesday meeting: Nation Builder, P3"
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-8",
+    "href": "pstat197bc/about-winter-meetings.html#week-8",
+    "title": "Winter class meetings",
+    "section": "Week 8",
+    "text": "Week 8\n\nWednesday meeting: Political Science, Scripps"
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-9",
+    "href": "pstat197bc/about-winter-meetings.html#week-9",
+    "title": "Winter class meetings",
+    "section": "Week 9",
+    "text": "Week 9\n\nWednesday meeting: SLAC"
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-10",
+    "href": "pstat197bc/about-winter-meetings.html#week-10",
+    "title": "Winter class meetings",
+    "section": "Week 10",
+    "text": "Week 10\nComments: do meet with your teams this week, set aside some time in this last meeting to reflect and set goals for next quarter; take a break from meetings during finals week and spring break; no further class meetings planned for the quarter.\n\nMonday meeting: P3 [slides] [handout]; SLAC [slides] [handout]"
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-2-1",
+    "href": "pstat197bc/about-winter-meetings.html#week-2-1",
+    "title": "Winter class meetings",
+    "section": "Week 2",
+    "text": "Week 2\nNote WEDNESDAY MEETING this week due to MLK Jr. Day\n\nComments: re-read project abstract before your team meeting.\nWednesday meeting: student panel on past project experiences"
+  },
+  {
+    "objectID": "pstat197bc/slides/week1-intro.html#capstone-goals",
+    "href": "pstat197bc/slides/week1-intro.html#capstone-goals",
+    "title": "Welcome to Data Science Capstone",
+    "section": "Capstone goals",
+    "text": "Capstone goals\n\nmake original contributions on your research topic;\ndevelop domain expertise in your project area(s);\ndevelop and practice communicating research outcomes to diverse audiences;\nimprove collaboration and teamwork skills;\nadvance your career development;\nproduce a strong work sample for your professional portfolio"
+  },
+  {
+    "objectID": "pstat197bc/slides/week1-intro.html#course-structure",
+    "href": "pstat197bc/slides/week1-intro.html#course-structure",
+    "title": "Welcome to Data Science Capstone",
+    "section": "Course structure",
+    "text": "Course structure\n\n1 weekly class meeting, usually Wednesdays.\n1 weekly team meeting, scheduled at a time of your choice\noptional but highly recommended: second team meeting or working session without advisors\nfew class assignments each term:\n\none short presentation\nmid-term peer review\nsummative deliverable at end of term"
+  },
+  {
+    "objectID": "pstat197bc/slides/week1-intro.html#expectations",
+    "href": "pstat197bc/slides/week1-intro.html#expectations",
+    "title": "Welcome to Data Science Capstone",
+    "section": "Expectations",
+    "text": "Expectations\n\nweekly time commitment: 12h = 2h in meetings + 10h on projects\nengage fully in project work, with some accountability:\n\ndraft, sign, and adhere to a team contract\ntake on one pre-defined organizational role in your team\nparticipate in peer reviews once per quarter"
+  },
+  {
+    "objectID": "pstat197bc/slides/week1-intro.html#roles",
+    "href": "pstat197bc/slides/week1-intro.html#roles",
+    "title": "Welcome to Data Science Capstone",
+    "section": "Roles",
+    "text": "Roles\nYou’ll take on one of the following roles:\n\nspokesperson\nmeeting organizer\nnote-taker\nrepository and data manager\nequity manager"
+  },
+  {
+    "objectID": "pstat197bc/slides/week1-intro.html#peer-review",
+    "href": "pstat197bc/slides/week1-intro.html#peer-review",
+    "title": "Welcome to Data Science Capstone",
+    "section": "Peer review",
+    "text": "Peer review\nEach quarter you’ll evaluate yourself/teammates on the extent to which you/they achieved the following:\n\nAttended, participated in, and contributed to project meetings\nHonored agreements specified in the team contract\nFulfilled assigned team role\nContributed fair share of work\nCooperated with teammates\nCommunicated clearly and respectfully with teammates\nHelped teammates when asked"
+  },
+  {
+    "objectID": "pstat197bc/slides/week1-intro.html#class-meetings",
+    "href": "pstat197bc/slides/week1-intro.html#class-meetings",
+    "title": "Welcome to Data Science Capstone",
+    "section": "Class meetings",
+    "text": "Class meetings\nClass meetings will be run like a seminar: we’ll rotate through the project teams, with two teams presenting each meeting.\n\n~30min available per team, but budget time for discussion\ncurrently in alphabetical order, but can swap by mutual agreement\nto prepare: 10-ish slides and 1-2 page handout\nfurther guidelines TBA"
+  },
+  {
+    "objectID": "pstat197bc/slides/week1-intro.html#assessments",
+    "href": "pstat197bc/slides/week1-intro.html#assessments",
+    "title": "Welcome to Data Science Capstone",
+    "section": "Assessments",
+    "text": "Assessments\n\nattendance record and class assignments;\nend-of-term advisor assessments of individual participation and contributions;\ninstructor assessments of in-class presentations and poster;\npeer reviews and end-of-term individual reflections."
+  },
+  {
+    "objectID": "pstat197bc/slides/week1-intro.html#initial-meetings",
+    "href": "pstat197bc/slides/week1-intro.html#initial-meetings",
+    "title": "Welcome to Data Science Capstone",
+    "section": "Initial meetings",
+    "text": "Initial meetings\nSchedule an initial meeting for week 2. Can recommend: Slack channel + [when2meet].\nSuggested agenda:\n\nintroductions (15m):\n\nname, position/background, fun fact\nsomething exciting about the project\n\nproject intro (20m)\n\nhave sponsor tell you about the project in detail in their own words\nfocus on the big picture, ask questions\n\ndata access and logistics (10m)\n\nmake arrangements to access/obtain data\n\naction items (10m)\n\ndetermine what actions will be taken before the next meeting\nassign responsibility for each action"
+  },
+  {
+    "objectID": "pstat197bc/slides/week1-intro.html#assignments",
+    "href": "pstat197bc/slides/week1-intro.html#assignments",
+    "title": "Welcome to Data Science Capstone",
+    "section": "Assignments",
+    "text": "Assignments\n\nMotivational statement due Friday 1/19 11:59pm PST. Take some time to write a paragraph or two in response to the following prompts (Submit via Google form):\n\nWhy are you participating in the capstone? What attracted you to the opportunity in the first place and how does it relate to your goals for your undergraduate education?\nWhat do you hope to get out of the experience? Why is that important to you?\n\nTeam contracts due Friday 1/26 11:59pm PST. See template.\n\nSubmit via Google drive"
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-3-1",
+    "href": "pstat197bc/about-winter-meetings.html#week-3-1",
+    "title": "Winter class meetings",
+    "section": "Week 3",
+    "text": "Week 3\nComments: teams should have data in hand this week; presentation schedule updated; contracts due Friday 1/26; see meeting notes template\n\nWednesday meeting: getting started and tips for success [slides]\nIn-class presentations to begin next week; should focus on project background, data, goals, and current/planned work\n\nformat: 20min presentation + 10min discussion\nto prepare: 10-15 slides and 1-2 page handout 24h in advance\n[handout template] [evaluation rubric] [last year’s presentations]"
+  },
+  {
+    "objectID": "pstat197bc/about-winter-meetings.html#week-5-1",
+    "href": "pstat197bc/about-winter-meetings.html#week-5-1",
+    "title": "Winter class meetings",
+    "section": "Week 5",
+    "text": "Week 5\n\nWednesday meeting: CITRAL, Geography Department"
   }
 ]
