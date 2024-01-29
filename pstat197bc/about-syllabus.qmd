@@ -39,10 +39,9 @@ Class meetings are held ***once weekly*** 2pm -- 3:15pm Wednesdays in North Hall
 
 Project meetings are held once weekly in teams at a time of their choosing either via Zoom, on campus, or on site with the project sponsor.
 
-We will not meet regularly at other officially scheduled times but we will use the Monday slot as an alternate class meeting time. 
+We will not meet regularly at other officially scheduled times but we will use the Monday slot as an alternate class meeting time.
 
 Students are encouraged to block off section times in their schedule to facilitate convenient scheduling of project work. Section rooms are available during those times as workspaces.
-
 
 ## People
 
@@ -50,12 +49,9 @@ Students are encouraged to block off section times in their schedule to facilita
 
 *Laura Baracaldo,* Visiting Assistant Professor, Statistics.
 
-
-
 #### ***Project advisors***
 
 (In alphabetical order by last name)
-
 
 -   *Laura Baracaldo,* Visiting Assistant Professor, Statistics
 
@@ -66,11 +62,9 @@ Students are encouraged to block off section times in their schedule to facilita
 -   *Jose Nino,* Data Science Student Advisor, Computer Science
 
 -   *Erika McPhillips,* PhD Student, Statistics
-
+-   *Avani Tanna,* Lecturer, Computer Science
 
 #### ***Project sponsors***
-
-
 
 -   *Jordan Tran,* Appfolio
 
@@ -90,8 +84,6 @@ Students are encouraged to block off section times in their schedule to facilita
 
 -   *Derek Mendez,* SLAC National Accelerator Laboratory
 
-
-
 ## Expectations
 
 ***Time commitment.*** The course carries a time commitment of 12 hours per week (3 hours per credit unit). Class and project meetings account for roughly 2 hours per week, and class assignments are kept to a minimum to facilitate project work; thus, students should anticipate dedicating 8-10 hours outside of the classroom to project work each week. Students are strongly encouraged to establish a secondary meeting without their advisors each week to help ensure effective time and task management among the group.
@@ -100,15 +92,15 @@ Students are encouraged to block off section times in their schedule to facilita
 
 ***Team roles.*** Each student will take on one of the following roles per term by mutual agreement with their team :
 
-- *spokesperson* (one person) who is responsible for communicating with advisors and course staff on behalf of the team;
+-   *spokesperson* (one person) who is responsible for communicating with advisors and course staff on behalf of the team;
 
-- *meeting organizer*(one person) who is responsible for arranging project meetings and keeping time during meetings;
+-   *meeting organizer*(one person) who is responsible for arranging project meetings and keeping time during meetings;
 
-- *note-takers*(two people) who is responsible for maintaining a written record of each meeting;
+-   *note-takers*(two people) who is responsible for maintaining a written record of each meeting;
 
-- *repository/data/document managers*(one-two people) who are responsible for coordinating access to project files and keeping them organized;
+-   *repository/data/document managers*(one-two people) who are responsible for coordinating access to project files and keeping them organized;
 
-- *equity manager*(one person) who is responsible for ensuring a fair distribution of work among the team members.
+-   *equity manager*(one person) who is responsible for ensuring a fair distribution of work among the team members.
 
 ***Peer review.*** Teams will conduct an anonymized peer review each quarter in which each student rates their teammates on:
 
