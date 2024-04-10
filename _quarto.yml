@@ -23,10 +23,11 @@ website:
           - about/technology.qmd
           - about/links.qmd
           - materials/course-materials.qmd
-      - section: "PSTAT197B"
+      - section: "PSTAT197BC"
         contents:
           - pstat197bc/about-syllabus.qmd
           - pstat197bc/about-winter-meetings.qmd
+          - pstat197bc/about-spring-meetings.qmd
       - section: "PSTAT197C"
         contents:
           - pstat197bc/about-spring-meetings.qmd
