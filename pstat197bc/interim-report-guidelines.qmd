@@ -39,7 +39,7 @@ Organize your report into the sections outlined below. Use subheadings as approp
 
 3.  **Materials and methods**
 
-    Describe your datasets and the statistical/computational techniques you are using to address the problems of interest. Provide high-level summaries of any key methods: if you are fitting a model, write the model clearly and explain how you estimate parameters; if you are designing an algorithm, write it up in pseudo-code; if you are performing hypothesis tests, state the hypotheses and indicate the test. This should be detailed but not long; if it begins to sprawl over many pages, that's a sign that you need to edit it down.
+    Describe your data sets and the statistical/computational techniques you are using to address the problems of interest. Provide high-level summaries of any key methods: if you are fitting a model, write the model clearly and explain how you estimate parameters; if you are designing an algorithm, write it up in pseudo-code; if you are performing hypothesis tests, state the hypotheses and indicate the test. This should be detailed but not long; if it begins to sprawl over many pages, that's a sign that you need to edit it down.
 
 4.  **Preliminary findings**
 
