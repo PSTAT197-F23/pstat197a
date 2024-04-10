@@ -5,7 +5,7 @@ editor: visual
 
 ## Purpose
 
-This assignment takes the place of a final exam or project in a typical class, and is an opportunity for your team to reflect on their progress and plan for the term ahead. It is also an opportunity to practice writing a technical report. You will get more out of the assignment if you take the time to do that reflection together.
+This assignment is an opportunity for your team to reflect on their progress and plan for the term ahead. It is also an opportunity to practice writing a technical report. You will get more out of the assignment if you take the time to do that reflection together.
 
 Broadly, the interim report should summarize your work to date in a presentable manner.
 
@@ -67,13 +67,12 @@ Supplementary material can be submitted in any format.
 
 ## How to submit
 
-Upload your PDF report and any supplementary files to this [Drive folder](https://drive.google.com/drive/folders/1w4Cp0AoUHY8O_6VSg_XOi2ftgJ4GycpN?usp=share_link). Use the naming conventions:
+Upload your PDF report and any supplementary files to this [Drive folder](https://drive.google.com/drive/folders/1AmzZQ4-jIIE-Kju_tP_lf9YM6mPnP2jf?usp=sharing). Create a folder with your team name. Within the folder use the naming conventions:
 
--   report document: `TEAM-interim-report-w23.pdf`
+-   report document: `TEAM-interim-report-S24.pdf`
 
-```{=html}
 <!-- -->
-```
+
 -   copies of figures from the report: `img/TEAM-fig1.png` (filename should match figure label in document)
 
 -   supplementary material: `TEAM-[description].[extention]`

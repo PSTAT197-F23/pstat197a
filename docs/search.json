@@ -3133,14 +3133,14 @@
     "href": "pstat197bc/work-in-progress-presentation-guidelines.html#content",
     "title": "Work-in-progress presentations",
     "section": "Content",
-    "text": "Content\nYou will have 15 minutes to present the problem you’re currently working on. In this time, you should cover the following points with roughly the suggested time allocations:\n\n(1min) remind the group which project you’re working on and what the overarching goal is\n(2min) identify the specific problem you’re working on addressing right now\n(10min) explain the problem in detail, filling in background information, data attributes, relevant aspects of software design, prior results, etc., as needed as you go\n(2min) pose a few specific questions you’d like to discuss or want advice on\n\nFollowing your presentation, your group will have 15 minutes for discussion (see agenda below).\n\nThink of the presentation less in terms of performing … and more in terms of getting the help you need from others to make further progress. In that spirit, make sure you allow time to present the leading edge of your work. That means you need to be economical in how you get listeners up to steam about the aspects of your project that you already have firmly in place.\n\nYou should aim to cover exactly the material the audience needs to be in an informed position relative to the questions you pose at the end. For some general tips on presenting research, see [this page]."
+    "text": "Content\nYou will have 15 minutes to present the problem you’re currently working on. In this time, you should cover the following points with roughly the suggested time allocations:\n\n(1min) remind the group which project you’re working on and what the overarching goal is\n(2min) identify the specific problem you’re working on addressing right now\n(10min) explain the problem in detail, filling in background information, data attributes, relevant aspects of software design, prior results, etc., as needed as you go\n(2min) pose a few specific questions you’d like to discuss or want advice on\n\nFollowing your presentation, your group will have 15 minutes for discussion (see agenda below).\n\nThink of the presentation less in terms of performing … and more in terms of getting the help you need from others to make further progress. In that spirit, make sure you allow time to present the leading edge of your work. That means you need to be economical in how you get listeners up to steam about the aspects of your project that you already have firmly in place.\n\nYou should aim to cover exactly the material the audience needs to be in an informed position relative to the questions you pose at the end."
   },
   {
     "objectID": "pstat197bc/work-in-progress-presentation-guidelines.html#agenda",
     "href": "pstat197bc/work-in-progress-presentation-guidelines.html#agenda",
     "title": "Work-in-progress presentations",
     "section": "Agenda",
-    "text": "Agenda\nFor each presentation, the group should follow this agenda:\n\n(15min) Work-in-progress presentation\n(5-10min) As a group, do the following:\n\nMake sure the audience is all on the same page: are there any aspects of the presentation that need to be clarified? Details that someone at the table wasn’t able to follow? Technical terms that need definition?\nSelect 2 audience members to reflect the presenter’s problem back – have them restate the problem in their own words. Ask the presenter: did they understand the problem correctly?\n\n(5-10min) Return to the presenter’s questions and discuss as a group.\n\nWe will take a 5 minute break between presentations each class meeting."
+    "text": "Agenda\nFor each presentation, the group should follow this agenda:\n\n(15min) Work-in-progress presentation\n(5min) As a group, do the following:\n\nMake sure the audience is all on the same page: are there any aspects of the presentation that need to be clarified? Details that someone at the group wasn’t able to follow? Technical terms that need definition?\nSelect 2 audience members to reflect the presenter’s problem back – have them restate the problem in their own words. Ask the presenter: did they understand the problem correctly?\n\n\nWe will take a 5 minute break between presentations each class meeting."
   },
   {
     "objectID": "pstat197bc/about-winter-meetings.html",
@@ -3309,5 +3309,103 @@
     "title": "Winter class meetings",
     "section": "Week 5",
     "text": "Week 5\n\nWednesday meeting: CITRAL, Geography Department"
+  },
+  {
+    "objectID": "pstat197bc/about-spring-meetings.html",
+    "href": "pstat197bc/about-spring-meetings.html",
+    "title": "Spring class meetings",
+    "section": "",
+    "text": "Schedule is tentative and subject to change. Check back for updates.\n\n\n\n\n\n\n\nWeek\nClass meeting\nAssignments/comments\n\n\n\n\n2 (4/10/24)\nIntroduction and spring quarter overview\n\n\n\n3 (4/15/24)\nOffice Hours/iterim report planning\nRevisions to interim reports due Friday 11:59pm PST\n\n\n4 (4/22/24)\nIndividual presentations\n\n\n\n5 (4/29/24)\nIndividual presentations\n\n\n\n6 (5/6/24)\nIndividual presentations\nPeer review due Friday 11:59pm PST\n\n\n7 (5/13/24)\nWorkshopping: figure drafts\n\n\n\n8 (5/20/24)\nWorkshopping: presenting figures\n\n\n\n9 (5/29/24)\nWorkshopping: poster drafts\nNo class Monday;WEDNESDAY meeting instead\n\n\n10 (6/3/24)\nPublic showcase\nLoma Pelona center 12pm – 4pm\n\n\n11 (finals)\n\nIndividual project summaries due Monday 6/10"
+  },
+  {
+    "objectID": "pstat197bc/about-spring-meetings.html#useful-links",
+    "href": "pstat197bc/about-spring-meetings.html#useful-links",
+    "title": "Spring class meetings",
+    "section": "Useful links",
+    "text": "Useful links\n\nAttendance form (please fill out once per meeting)\nDrive folder for presentation filesharing (be aware, contents visible with a UCSB account and the link)\nPresentation guidelines – requirements and suggestions for work-in-progress presentations and agenda"
+  },
+  {
+    "objectID": "pstat197bc/about-spring-meetings.html#week-1",
+    "href": "pstat197bc/about-spring-meetings.html#week-1",
+    "title": "Spring class meetings",
+    "section": "Week 1",
+    "text": "Week 1\n\nMonday meeting: welcome back and spring term overview [slides]\nClass assignments:\n\nrevisions to interim reports due Friday 4/14 11:59pm PST (upload to same folder as before with suffix -revised)\nfigure for website due Friday 4/14 11:59pm PST [upload here]"
+  },
+  {
+    "objectID": "pstat197bc/about-spring-meetings.html#weeks-2-6",
+    "href": "pstat197bc/about-spring-meetings.html#weeks-2-6",
+    "title": "Spring class meetings",
+    "section": "Weeks 2-6",
+    "text": "Weeks 2-6\n\nMonday meetings: work-in-progress presentations, as scheduled by table [slides]"
+  },
+  {
+    "objectID": "pstat197bc/about-spring-meetings.html#week-7",
+    "href": "pstat197bc/about-spring-meetings.html#week-7",
+    "title": "Spring class meetings",
+    "section": "Week 7",
+    "text": "Week 7\n\nAssignments:\n\nComplete [peer review] by end of week\nPrepare figure drafts for poster by next class meeting on 5/22\nreview [poster template]\n\nMonday meeting: Drafting presentation figures [slides]"
+  },
+  {
+    "objectID": "pstat197bc/about-spring-meetings.html#week-8",
+    "href": "pstat197bc/about-spring-meetings.html#week-8",
+    "title": "Spring class meetings",
+    "section": "Week 8",
+    "text": "Week 8\n\nAssignments:\n\nPrepare poster draft by next class meeting\n\nMonday meeting: Presenting figures, poster layout [slides]"
+  },
+  {
+    "objectID": "pstat197bc/about-spring-meetings.html#week-9",
+    "href": "pstat197bc/about-spring-meetings.html#week-9",
+    "title": "Spring class meetings",
+    "section": "Week 9",
+    "text": "Week 9\n\nAssignments:\n\nFinalize and print poster (see slides for printing instructions)\n\nWednesday meeting: Practice poster presentations, logistics [slides]"
+  },
+  {
+    "objectID": "pstat197bc/about-spring-meetings.html#week-10",
+    "href": "pstat197bc/about-spring-meetings.html#week-10",
+    "title": "Spring class meetings",
+    "section": "Week 10",
+    "text": "Week 10\n\nAssignments\n\nSubmit individual project summary by Friday, 6/16 11:59pm PST [guidelines] [upload]\nSubmit PDF copy of your group’s poster [drive folder]\n\nMonday meeting: poster showcase at Loma Pelona [photos]"
+  },
+  {
+    "objectID": "pstat197bc/about-spring-meetings.html#week-2",
+    "href": "pstat197bc/about-spring-meetings.html#week-2",
+    "title": "Spring class meetings",
+    "section": "Week 2",
+    "text": "Week 2\n\nMonday meeting: welcome back and spring term overview [slides]\n[Work-in-progress presentation Groups]\nClass assignments:\n\ninterim reports due Friday 4/19 11:59pm PST (upload to Drive folder). See guidelines for interim reports\nfigure for website due Friday 4/19 11:59pm PST [upload here]"
+  },
+  {
+    "objectID": "pstat197bc/about-spring-meetings.html#weeks-4-6",
+    "href": "pstat197bc/about-spring-meetings.html#weeks-4-6",
+    "title": "Spring class meetings",
+    "section": "Weeks 4-6",
+    "text": "Weeks 4-6\n\nMonday meetings: work-in-progress presentations, as scheduled by group [slides]"
+  },
+  {
+    "objectID": "pstat197bc/interim-report-guidelines.html",
+    "href": "pstat197bc/interim-report-guidelines.html",
+    "title": "Interim report guidelines",
+    "section": "",
+    "text": "This assignment is an opportunity for your team to reflect on their progress and plan for the term ahead. It is also an opportunity to practice writing a technical report. You will get more out of the assignment if you take the time to do that reflection together.\nBroadly, the interim report should summarize your work to date in a presentable manner."
+  },
+  {
+    "objectID": "pstat197bc/interim-report-guidelines.html#purpose",
+    "href": "pstat197bc/interim-report-guidelines.html#purpose",
+    "title": "Interim report guidelines",
+    "section": "",
+    "text": "This assignment is an opportunity for your team to reflect on their progress and plan for the term ahead. It is also an opportunity to practice writing a technical report. You will get more out of the assignment if you take the time to do that reflection together.\nBroadly, the interim report should summarize your work to date in a presentable manner."
+  },
+  {
+    "objectID": "pstat197bc/interim-report-guidelines.html#expectations",
+    "href": "pstat197bc/interim-report-guidelines.html#expectations",
+    "title": "Interim report guidelines",
+    "section": "Expectations",
+    "text": "Expectations\n\nAudience\nYou are writing for a broad audience. You can assume the reader is familiar with statistics and data science at about the same level as your peers, but should not assume they have any expertise in your area or with the data or methods you are using.\nAvoid jargon, define key terms or acronyms when they first appear, and dedicate space to explaining data and methodology carefully, but avoid over-explaining or providing excessive detail – you are describing research, not teaching a class.\n\n\nLength\nThe report should be no less than 5 pages and no more than 10 pages. If necessary, you can include supplementary material or appendices following the main body of the report or as separate files/documents.\n\n\nContent\nOrganize your report into the sections outlined below. Use subheadings as appropriate to your project to further differentiate report contents within sections. Whenever possible, please make subheadings specific (e.g., “Biological species surveys” is better than “Data”). In general, the headings and subheadings should provide an outline of the contents of a report that is easy for the reader to skim and informative.\n\nIntroduction\nIntroduce the topic of your project and provide any background needed to understand your work. Above all, your introduction should convey the primary motivation and potential value of your work. You are not expected to do a literature review, but if there is closely related prior work or your sponsor has provided you with a collection of relevant papers, you should summarize these and provide citations in the introduction. Close the introduction with a statement of your project objective(s) and a summary of the organization of the report.\nProblem(s) of interest\nConcisely state the problems you’re working on. These should be the high-level problems corresponding to the project objectives that you hope to solve by the end of the capstone – not practical/technical problems encountered along the way like data representation or wrangling, issues with model training or algorithm implementations, computational constraints, etc.\nIf your project has multiple arms, dedicate one short paragraph to each arm. Aim to sum up the problems of interest for each arm in just 1-3 sentences (not required, but a good aspiration).\nTip: If you find yourself struggling to summarize the problems of interest concisely or providing a lot of context or explanation, that’s probably a sign that you need to go back and revise your introduction.\nMaterials and methods\nDescribe your datasets and the statistical/computational techniques you are using to address the problems of interest. Provide high-level summaries of any key methods: if you are fitting a model, write the model clearly and explain how you estimate parameters; if you are designing an algorithm, write it up in pseudo-code; if you are performing hypothesis tests, state the hypotheses and indicate the test. This should be detailed but not long; if it begins to sprawl over many pages, that’s a sign that you need to edit it down.\nPreliminary findings\nPresent key findings from this quarter. Resist the temptation to describe everything you’ve done – focus just on the results that capture the most significant advances. Prepare a table or figure that helps to communicate each key finding with an appropriate caption. If you include a table or figure, you should also describe it in words and explain its significance. No tables or figures should appear that you do not also discuss in the text of the report.\nTip: start by preparing the tables and figures, determine the order to present them in, and then write this section around those elements.\nDiscussion\nThis is your opportunity to describe any particular challenges, interpretations of findings, and the like. Try to stick to the facts in the findings section, and use this section to explain how they relate to your problems of interest and project objectives.\nFuture work\nDescribe how you anticipate extending your project into spring quarter. Be specific. You do not need to present a detailed plan or timeline, but should convey what you expect to work on during Spring quarter. Use this as an opportunity to set goals and expectations for your group.\n\n\n\nFormat\nYour report should be in PDF (.pdf) or Word (.docx) format.\nAll figures and tables should be labeled and captioned, e.g., “Fig. 1: map of sampling locations in 2018”.\nCopies of any figures should be provided as separate images in JPEG, TIFF, or PNG format; images should have a resolution of at least 300 dots per inch (dpi).\nSupplementary material can be submitted in any format."
+  },
+  {
+    "objectID": "pstat197bc/interim-report-guidelines.html#how-to-submit",
+    "href": "pstat197bc/interim-report-guidelines.html#how-to-submit",
+    "title": "Interim report guidelines",
+    "section": "How to submit",
+    "text": "How to submit\nUpload your PDF report and any supplementary files to this Drive folder. Create a folder with your team name. Within the folder use the naming conventions:\n\nreport document: TEAM-interim-report-S24.pdf\n\n\n\ncopies of figures from the report: img/TEAM-fig1.png (filename should match figure label in document)\nsupplementary material: TEAM-[description].[extention]"
   }
 ]
