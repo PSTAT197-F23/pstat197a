@@ -8,12 +8,12 @@ title: "Spring class meetings"
 | 3 (4/15/24) | Office Hours/iterim report planning                          | Interim reports due Friday 11:59pm PST |
 | 4 (4/22/24) | Individual presentations                          |                                                     |
 | 5 (4/29/24) | Individual presentations                          |                                                     |
-| 6 (5/6/24)  |Individual presentations                          | Peer review due Friday 11:59pm PST                  |
+| 6 (5/6/24)  |Individual presentations                          |                  |
 | 7 (5/13/24) | Workshopping: figure drafts              |                                                     |
 | 8 (5/20/24) | Workshopping: presenting figures         |                                                     |
 | 9 (5/29/24) | Workshopping: poster drafts              | No class Monday;*WEDNESDAY* meeting instead         |
 | 10 (6/3/24) | Public showcase                          | Loma Pelona center 1pm -- 5pm                      |
-| 11 (finals) |                                          | Individual project summaries due Monday 6/10        |
+| 11 (finals) |                                          | Individual project summaries due Monday 6/10, Peer review due Friday 6/14 11:59pm PST         |
 
 : Schedule is tentative and subject to change. Check back for updates.
 
@@ -40,19 +40,21 @@ title: "Spring class meetings"
 
 -   *Monday meetings*: work-in-progress presentations, as scheduled by group \[[slides](https://docs.google.com/presentation/d/1mdSmFhguDdJvlwC_rH5mdlJlbiYP6l2zFuwSu-gc590/edit?usp=sharing)\]
 
-<!-- ## Week 7 -->
+## Week 7
 
-<!-- -   *Assignments*: -->
-<!--     -   Complete \[[peer review](https://forms.gle/9PcjvEGv5YyrDTm87)\] by end of week -->
-<!--     -   Prepare figure drafts for poster by next class meeting on 5/22 -->
-<!--     -   review \[[poster template](https://docs.google.com/presentation/d/1dgrJcwujk6OKZ4R4zJzZOWzg0XKuk1D2gW3FxZEjTns/edit?usp=sharing)\] -->
-<!-- -   *Monday meeting*: Drafting presentation figures \[[slides](https://docs.google.com/presentation/d/1UqB7gSeqwYOukAxNdwftoMUBowQq5m5vCDP5PJcX4cQ/edit?usp=sharing)\] -->
+-   *Assignments*:
+    <!-- -   Complete \[[peer review](https://forms.gle/9PcjvEGv5YyrDTm87)\] by end of week -->
+    -   Prepare figure drafts for poster by next class meeting on 5/20
+    -   review \[[poster template](https://docs.google.com/presentation/d/1dgrJcwujk6OKZ4R4zJzZOWzg0XKuk1D2gW3FxZEjTns/edit?usp=sharing)\]
+-   *Monday meeting*: Drafting presentation figures \[[slides](https://docs.google.com/presentation/d/1btY0noORtdq7PqPmZKWB5MfNtsOBy2jFXuifkxH4ZjU/edit?usp=sharing)\]
 
-<!-- ## Week 8 -->
+## Week 8
 
-<!-- -   *Assignments*: -->
-<!--     -   Prepare poster draft by next class meeting -->
-<!-- -   *Monday meeting*: Presenting figures, poster layout \[[slides](https://docs.google.com/presentation/d/164i8YmH6WpIatGVAVeBIhYrSUxuMfb1zL7QQ7kUZq2s/edit?usp=sharing)\] -->
+-   *Assignments*:
+    -   Prepare poster draft by next class meeting
+-   *Monday meeting*: Presenting figures, poster layout \[[slides](https://docs.google.com/presentation/d/1lPst3X5hutG_UIlnHcINUhZpJuxqfcaGW1-9x9G69MM/edit?usp=sharing)\]
+
+- Other poster templates: \[[1](https://www.overleaf.com/latex/templates/boston-college-poster-template/zgxfgpbfdjhj)\], \[[2](https://www.overleaf.com/latex/templates/usc-ssi-poster-theme/zdfwdfypbgwv)\], \[[3](https://www.overleaf.com/latex/templates/smu-beamer-poster-template/fsdjpxvxbdkx)\], \[[4](https://www.overleaf.com/latex/templates/bgu-poster-template/wjcpdmrspdzt)\]
 
 <!-- ## Week 9 -->
 
