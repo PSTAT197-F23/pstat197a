@@ -56,20 +56,22 @@ title: "Spring class meetings"
 
 - Other poster templates: \[[1](https://www.overleaf.com/latex/templates/boston-college-poster-template/zgxfgpbfdjhj)\], \[[2](https://www.overleaf.com/latex/templates/usc-ssi-poster-theme/zdfwdfypbgwv)\], \[[3](https://www.overleaf.com/latex/templates/smu-beamer-poster-template/fsdjpxvxbdkx)\], \[[4](https://www.overleaf.com/latex/templates/bgu-poster-template/wjcpdmrspdzt)\]
 
-<!-- ## Week 9 -->
+## Week 9
 
-<!-- -   *Assignments:* -->
+-   *Assignments:*
 
-<!--     -   Finalize and print poster (see slides for printing instructions) -->
+    -   Finalize and print poster (see slides for printing instructions)
 
-<!-- -   ***Wednesday** meeting:* Practice poster presentations, logistics \[[slides](https://docs.google.com/presentation/d/1AAMeiDmyywL0iaZMcAkKjwWyJMxtW_OLpXr1l22LVrU/edit?usp=sharing)\] -->
+-   ***Wednesday** meeting:* Practice poster presentations, logistics \[[slides](https://docs.google.com/presentation/d/1ZBdgTfoL_x6fyzD6eZtC82oY4u37hu76/edit?usp=sharing&ouid=110245259644738695005&rtpof=true&sd=true)\]
 
-<!-- ## Week 10 -->
+## Week 10
 
-<!-- -   *Assignments* -->
+-   *Assignments*
 
-<!--     -   Submit individual project summary by Friday, 6/16 11:59pm PST \[[guidelines](individual-report-guidelines.qmd)\] \[[upload](https://forms.gle/dNSSYpQu2VuveJX88)\] -->
+    -   Submit individual project summary by Monday, 6/10 11:59pm PST \[[guidelines](individual-report-guidelines.qmd)\] \[[upload](https://forms.gle/Gg9TCBaSSFCpyznx5)\]
 
-<!--     -   Submit PDF copy of your group's poster \[[drive folder](https://drive.google.com/drive/folders/1ReHsyTzti_BHum734xFEeEZJrVD_b344?usp=sharing)\] -->
+    -   Submit PDF copy of your group's poster \[[drive folder](https://drive.google.com/drive/folders/1Cn5IEP3vegAUpLez5nhSZMW_Gmyb48PW?usp=sharing)\]
 
-<!-- -   *Monday meeting:* poster showcase at Loma Pelona \[[photos](https://ucsb.box.com/s/64vkhbw8bpwpj1sz0flyhdd0q222npe6)\] -->
+-   *Monday meeting:* poster showcase at Loma Pelona. \[[RSVP](https://forms.gle/iWTtdkSCnT7KzZQ7A)\] ONLY If you have any dietary restrictions.
+
+<!-- \[[photos](https://ucsb.box.com/s/64vkhbw8bpwpj1sz0flyhdd0q222npe6)\] -->
